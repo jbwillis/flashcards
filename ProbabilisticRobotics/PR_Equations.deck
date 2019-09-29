@@ -1,0 +1,10 @@
+# Name; Equation; Notes
+Univariate gaussian; \[ p(x) = (2 \pi \sigma^2)^{-\frac{1}{2}} e^{\left( -\frac{1}{2} \frac{(x-\mu)^2}{\sigma^2}\right)} \]; Where \(\mu\) is the mean and \(\sigma^2\) is the variance.
+Multivariate gaussian; \[ p(x) = \det(2 \pi \Sigma^2)^{-\frac{1}{2}} e^{\left( -\frac{1}{2} (x-\mu)^\top \Sigma^{-1} (x - \mu)\right)} \]; Where \(x\) is a vector of length \(n\), with \(\mu\) the mean vector of length \(n\), and \(\Sigma\) the covariance matrix.
+Joint distribution; \[p(x,y) = p(X = x \text{ and } Y = y) \];
+Independent random variables; \[p(x,y) = p(x)p(y) \];
+Conditional probability; \[p(x|y) = p(X = x | Y = y) = \frac{p(x,y)}{p(y)} \]; Where \( | \) means "conditioned on" or "given"
+Conditional probability of independent random variables;\[p(x|y) = \frac{p(x)p(y)}{p(y)} = p(x) \];
+Theorem of total probability (discrete); \[p(x) = \sum_y p(x|y)p(y)\]; 
+Theorem of total probability (continuous); \[p(x) = \int_y p(x|y)p(y)\]; 
+Baye's theorem; \[p(x|y) = \frac{p(y|x)p(x)}{p(y)} \];

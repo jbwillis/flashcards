@@ -1,0 +1,5 @@
+# Term; Def
+Random variable; A variable which takes on multipe values according to specific probabilistic laws
+Covariance matrix; A positive semidefinite and symmetric matrix. The diagonal elements are variances and the off-diagonal elements are covariances
+Prior probability; If \(x\) is a quantity that we would like to infer from y, the probability \(p(x)\) is referred to as the prior probability distribution. <br> Recall that \(p(x|y) = \frac{p(y|x)p(x)}{p(y)} \)
+Posterior probability; The probability \(p(x|y)\) is called the posterior probability distribution over \(X\)
