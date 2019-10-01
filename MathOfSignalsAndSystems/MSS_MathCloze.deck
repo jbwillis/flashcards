@@ -1,0 +1,15 @@
+# Number; Cloze phrase; Reference
+# chapter 3
+CH3_01; A matrix \(A\) is said to be positive definite (PD) if {{c1::\(\mathbf{x}^H A \mathbf{x}\ > 0\)}} for all \(\mathbf{x} \neq 0 \); Definition 3.1, pg 134
+CH3_02; A matrix \(A\) is said to be positive semidefinite (PSD) if {{c1::\(\mathbf{x}^H A \mathbf{x}\ \geq 0\)}} for all \(\mathbf{x} \neq 0 \); Definition 3.1, pg 134
+CH3_03; All diagonal elements of a positive definite (or PSD) are {{c1::nonnegative}}; Definition 3.1, pg 134
+CH3_04; A Hermitian matrix \(A\) is PD (or PSD) if and only if all of the eigenvalues are {{c1::nonnegative}}. Hence, a PD matrix has a {{c1::positive determinant}}. Hence, a PD matrix is {{c1::invertable}}; Definition 3.1, pg 134
+CH3_05; A Hermitian matrix \(A\) is PD if and only if all principal minors are {{c1::positive}}.; Definition 3.1, pg 134
+CH3_06; If \(A\) is PD, then the pivots obtained in the {{c1::LU}} factorization are {{c1::positive}}; Definition 3.1, pg 134
+CH3_07; If \(A > 0\) and \(B \geq 0\) (ie \(A\), \(B\) are PD), then \(A + B {{c1:: > 0 }} \).; Definition 3.1, pg 134
+CH3_08; A {{c1::Hermitian}} PD matrix \(A\) can be factored as {{c1::\(A = B^H B\)}}, where \(B\) is full rank. This is a matrix {{c1::square root}}; Definition 3.1, pg 134
+CH3_09; A Grammian matrix \(R\) is always {{c2::positive-semidefinite}}. It is {{c2::positive-definite}} if and only if the vectors \(\mathbf{p}_1\), \(\dots\), \(\mathbf{p}_m\) are {{c1::linearly independent}}.; Theorem 3.1, pg 134
+CH3_10; The {{c1::orthogonality}} principle. Let \(\mathbf{p}_1\), \(\dots\), \(\mathbf{p}_m\) be data vectors in a vector space \(S\). Let \(\mathbf{x} \in S\). In the representation \[\mathbf{x} = \sum_{i=1}^{m} c_i \mathbf{p}_i + \mathbf{e} = \hat{\mathbf{x}} + \mathbf{e},\] the induced norm of the error vector \(\| \mathbf{e} \|\) is minimized when the error \( \mathbf{e} = \mathbf{x} - \hat{\mathbf{x}} \) is {{c1::orthogonal}} to each of the data vectors. i.e. \[ \left\langle \mathbf{x} - \sum_{i=1}^{m} c_i \mathbf{p}_i , \mathbf{p}_j \right\rangle = 0\] for \(j = 1,2,\dots, m\).; Theorem 3.2, pg 135
+CH3_11; The optimal (least-squares) coefficients \(\mathbf{c}\) are \[\mathbf{c} = {{c1:: (A^HA)^{-1}A^H }} \mathbf{x}\].; Equation 3.19, pg 139
+
+
