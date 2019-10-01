@@ -1,0 +1,4 @@
+# Name; Equation; Notes; Ref
+Determination of \(f_{\mathbf{y} }(y)\) for \(y = g(x)\); \[f_{\mathbf{y} }(y) = f_{\mathbf{x} }(g^{-1}(y)) |\frac{d}{dy}g^{-1}(y)|\]; This particular form is only valid for a monotonic \(g(x)\).; Equation 5-16, pg 130. Also on Wikipedia
+
+

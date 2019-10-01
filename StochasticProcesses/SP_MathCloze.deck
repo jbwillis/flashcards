@@ -1,0 +1,4 @@
+# Number; Cloze phrase; Reference
+CH5_1; The {{c1::expected value}} or {{c1::mean}} of a random variable \(\mathbf(x)\) is by definition the integral {{c2::\[E[\mathbf{x}] = \int_{-\infty}^{\infty} x f(x) dx\]}}; Equation 5-44, pg 140
+CH5_2; \(E[a\mathbf{x} + b] = {{c1::aE[\mathbf{x}] + b}}\); 
+CH5_3; \(E[g(\mathbf{x})] = {{c1::\int_{-\infty}^{\infty} g(x) f_{\mathbf{x} }(x) dx}}\);
