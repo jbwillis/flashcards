@@ -1,4 +1,3 @@
 # Name; Equation; Notes; Ref
 Determination of \(f_{\mathbf{y} }(y)\) for \(y = g(x)\); \[f_{\mathbf{y} }(y) = f_{\mathbf{x} }(g^{-1}(y)) |\frac{d}{dy}g^{-1}(y)|\]; This particular form is only valid for a monotonic \(g(x)\).; Equation 5-16, pg 130. Also on Wikipedia
-
-
+Jacobian of \(z = g(x, y)\) and \(w = h(x, y)\); \[ J(x, y)  = \begin{bmatrix} \frac{\partial g} {\partial{x} } & \frac{\partial g} {\partial{y} } \\ \frac{\partial h} {\partial{x} } & \frac{\partial h} {\partial{y} } \end{bmatrix} \]; ; Equation 6-117, pg 201
