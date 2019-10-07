@@ -1,5 +1,5 @@
 # Flashcards
-Text files containing flashcard entries for importing into Anki. All files are semi-colon delimited.
+Text files containing flashcard entries for importing into Anki. All files are semicolon delimited.
 
 For more info about importing text files see [the Anki Docs](https://apps.ankiweb.net/docs/manual.html#importing-text-files]).
 When importing, I typically use the setting `Update existing notes when first field matches`. This preserves the history of notes that I have edited. I also check the `Allow html` box so I can use basic html in the notes. This is mostly for creating newlines with `<br>`.
