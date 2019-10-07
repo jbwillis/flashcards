@@ -42,6 +42,11 @@ SP_CH4_14; \(f_{\mathbf{x} } (x) =\) {{c1::\(\frac{d F_{\mathbf{x} }(x) } { dx} 
 SP_CH5_01; The {{c1::expected value}} or {{c1::mean}} of a random variable \(\mathbf(x)\) is by definition the integral {{c2::\[E[\mathbf{x}] = \int_{-\infty}^{\infty} x f(x) dx\]}}; Equation 5-44, pg 140
 SP_CH5_02; \(E[a\mathbf{x} + b] =\) {{c1::\(aE[\mathbf{x}] + b\)}}; 
 SP_CH5_03; \(E[g(\mathbf{x})] = \){{c1::\( \int_{-\infty}^{\infty} g(x) f_{\mathbf{x} }(x) dx\) }};
+SP_CH5_04; Variance <br> {{c1::\(E[(\mathbf{x} - \mu)^2] \)}} \(=\) {{c2::\(E[\mathbf{x}^2] -  (E[\mathbf{x}])^2 \) }}; Equations 5-59 and 5-61, pg 144-45,
+SP_CH5_06; {{c1::Univariate normal}} density function for \(\mathbf{x} \sim \) {{c1::\(N(\mu, \sigma^2) \)}}. <br> \(f_{\mathbf{x} } (x) = \) {{c2:: \(\frac{1}{\sqrt{2 \pi \sigma^2} } e^{-(x - \mu)^2 / 2 \sigma^2} \)}}; Table 5-2, pg 162
+SP_CH5_07; {{c1::Uniform}} density function for \(\mathbf{x} \sim \) {{c1::\( U(a,b)\)}}. <br> \(f_{\mathbf{x} } (x) = \) {{c2::\( \frac{1}{b-a} \)}}; Table 5-2, pg 162
+SP_CH5_08; {{c1::Mean}} for \(\mathbf{x} \sim \) {{c1::\( U(a,b)\)}}. <br> {{c2::\( \frac{a+b}{2} \)}}; Table 5-2, pg 162
+SP_CH5_09; {{c1::Variance}} for \(\mathbf{x} \sim \) {{c1::\( U(a,b)\)}}. <br> {{c2::\( \frac{(b-a)^2}{12} \)}}; Table 5-2, pg 162
 # Chapter 6
 SP_CH6_01; If \(\mathbf{x}\) and \(\mathbf{y}\) are independent, then \(f_{\mathbf{x}\mathbf{y} } (x, y) = {{c1:: f_{\mathbf{x} } (x) f_{\mathbf{y} } (y) }}\); Equation 6-42, pg 182
 SP_CH6_02; Two random variables \(\mathbf{x}\) and \(\mathbf{y}\) are {{c1::independent}} if the events \(\{\mathbf{x} \in A\}\) and \(\{\mathbf{y} \in B\}\) are {{c1::independent}}, that is, if <br> \(P\{\mathbf{x} \in A, \mathbf{y} \in B\} = {{c2::P\{\mathbf{x} \in A\} P\{\mathbf{y} \in B\} }}\).; Equation 6-18, pg 173
