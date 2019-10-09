@@ -38,8 +38,9 @@ SP_CH4_11; \(P\{\mathbf{x} = x \} = \) {{c1::\(F(x) - F(x^-)\)}}; Property 7, pg
 SP_CH4_12; \(P\{ x_1 \leq \mathbf{x} \leq x_2 \} = \) {{c1::\(F(x_2) - F(x_1^-)\)}}; Property 8, pg 79
 SP_CH4_13; The {{c1::derivative}} of the probability distribution function \(F_{\mathbf{x} }(x)\) is called the {{c2::probability density function}} \(f_{\mathbf{x} } (x)\).; Equation 4-13, pg 81
 SP_CH4_14; \(f_{\mathbf{x} } (x) =\) {{c1::\(\frac{d F_{\mathbf{x} }(x) } { dx} \)}}; Equation 4-13, pg 81
+SP_CH4_15; \(F_{\mathbf{x} } (x) =\) {{c1::\( \int_{-\infty}^{x} f_{\mathbf{x} }(u) } du \)}}; Equation 4-13, pg 81
 #Chapter 5
-SP_CH5_01; The {{c1::expected value}} or {{c1::mean}} of a random variable \(\mathbf(x)\) is by definition the integral {{c2::\[E[\mathbf{x}] = \int_{-\infty}^{\infty} x f(x) dx\]}}; Equation 5-44, pg 140
+SP_CH5_01; The {{c1::expected value}} or {{c1::mean}} of a random variable \(\mathbf(x)\) is by definition the integral {{c1::\[E[\mathbf{x}] =\) }} {{c2:: \( \int_{-\infty}^{\infty} x f(x) dx\]}}; Equation 5-44, pg 140
 SP_CH5_02; \(E[a\mathbf{x} + b] =\) {{c1::\(aE[\mathbf{x}] + b\)}}; 
 SP_CH5_03; \(E[g(\mathbf{x})] = \){{c1::\( \int_{-\infty}^{\infty} g(x) f_{\mathbf{x} }(x) dx\) }};
 SP_CH5_04; Variance <br> {{c1::\(E[(\mathbf{x} - \mu)^2] \)}} \(=\) {{c2::\(E[\mathbf{x}^2] -  (E[\mathbf{x}])^2 \) }}; Equations 5-59 and 5-61, pg 144-45,
@@ -57,3 +58,8 @@ SP_CH6_06; If the random variables \(\mathbf{x}\) and \(\mathbf{y}\) are {{c1::i
 SP_CH6_07; Given the random variables \(\mathbf{x}\), \(\mathbf{y}\), \(\mathbf{z} = g(\mathbf{x}, \mathbf{y})\), and the density \(f_{\mathbf{x}\mathbf{y} }\), the distribution of \(\mathbf{z}\) is<br> \(F_{\mathbf{z} }(z) = P\{ \) {{c1::\(g(\mathbf{x}, \mathbf{y}) \leq z\)}} \( \} = \iint_{x, y \in D_z} \) {{c1:: \(f_{\mathbf{x}\mathbf{y} }(x, y) dx dy \) }}<br>where \(D_z\) is the region where {{c1::\(g(\mathbf{x}, \mathbf{y}) \leq z\)}}; Equation 6-37, pg 180
 SP_CH6_08; If \(z = g(x, y)\) and \(w = h(x, y)\) are {{c1::continuous}} and {{c1::differentiable}}, it is possible to obtain the density \(f_{\mathbf{z}\mathbf{w} } (z, w) \) directly from the density \(f_{\mathbf{x}\mathbf{y} } (x, y) \); Pg 199, also Section6.3 slides number 16
 SP_CH6_09; Let \(\mathbf{z} = g(\mathbf{x}, \mathbf{y})\) and \(\mathbf{w} = h(\mathbf{x}, \mathbf{y})\). Now suppose for a given \(z\) and \(w\) there is a solution: \[\begin{align}z &= g(x_1, y_1) \\ w &= h(x_1, y_1) \end{align} \] Then the joint density of \(\mathbf{z}\) and \(\mathbf{w}\) is <br> \(f_{\mathbf{z}\mathbf{w} } (z, w) = \) {{c1:: \( \frac{f_{\mathbf{x}\mathbf{y} } (x_1, y_1) } { | J(x_1, y_1) | } \) }} where {{c1:: \(| J(x_1, y_1) | \) }} is the {{c1::determinant}} of the {{c1::Jacobian}} of the transformation evaluated at {{c1:: \(x = x_1\)}} and {{c1:: \(y = y_1\) }}.; Section 6.3 slides number 16
+SP_CH6_10; Marginal Statistics <br> \(F_{\mathbf{x} } (x) =\) {{c1::\(F_{\mathbf{x}, \mathbf{y} }(x, \infty) \) }}; Equation 6-9, pg 171
+SP_CH6_11; Marginal Statistics <br> \(f_{\mathbf{x} } (x) =\) {{c1::\( \int_{-\infty}^{\infty} f_{\mathbf{x}, \mathbf{y} }(x, y) dy \) }}; Equation 6-10, pg 171
+SP_CH6_12; {{c2::Conditional probability}} for joint densities <br> \(f(y|x) = \){{c1::\( \frac{f(x,y)} {f(x)} \)}}; Equation 6-205, pg 222
+SP_CH6_13; {{c2::Bayes rule}} for joint densities <br> \(f(x|y) = \){{c1::\( \frac{f(y|x)f(x)} {f(y)} \)}}; Equation 6-212, pg 224
+SP_CH6_14; {{c2::Bayes theorem}} for joint densities <br> \(f(x|y) = \){{c1::\( \frac{f(y|x)f(x)} {\int_{-\infty}^{\infty} f(y|x)f(x) dx } \)}}; Equation 6-214, pg 224
