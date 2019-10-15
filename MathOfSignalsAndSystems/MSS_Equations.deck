@@ -1,5 +1,5 @@
 # Name; Equation; Notes; Ref
 # Chapter 3
-Grammian matrix; \[R = \begin{bmatrix} \langle \mathbf{p}_1, \mathbf{p}_1 \rangle & \dots & \langle \mathbf{p}_m, \mathbf{p}_1 \rangle \\ \vdots & \ddots & \vdots \\ \langle \mathbf{p}_1, \mathbf{p}_m \rangle & \dots & \langle \mathbf{p}_m, \mathbf{p}_m \rangle \end{bmatrix} \]; Where \(\mathbf{p}_i \) are vectors; Eq. 3.7
+Grammian matrix; \[R = \begin{bmatrix} \langle \mathbf{p}_1, \mathbf{p}_1 \rangle & \dots & \langle \mathbf{p}_m, \mathbf{p}_1 \rangle \\ \vdots & \ddots & \vdots \\ \langle \mathbf{p}_1, \mathbf{p}_m \rangle & \dots & \langle \mathbf{p}_m, \mathbf{p}_m \rangle \end{bmatrix} \]; Where \( \mathbf{p}_i \) are vectors; Eq. 3.7
 Projection matrix; \[P_A = A(A^HA)^{-1}A^H\]; The matrix \(P_A\) projects onto the range of \(A\).; pg 139 
 
