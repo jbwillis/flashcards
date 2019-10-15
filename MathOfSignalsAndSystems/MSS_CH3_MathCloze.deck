@@ -1,3 +1,4 @@
+# Number; Cloze phrase; Reference
 # chapter 3
 MSS_CH3_01; A matrix \(A\) is said to be positive definite (PD) if {{c1::\(\mathbf{x}^H A \mathbf{x}\ > 0\)}} for all \(\mathbf{x} \neq 0 \); Definition 3.1, pg 134
 MSS_CH3_02; A matrix \(A\) is said to be positive semidefinite (PSD) if {{c1::\(\mathbf{x}^H A \mathbf{x}\ \geq 0\)}} for all \(\mathbf{x} \neq 0 \); Definition 3.1, pg 134
