@@ -1,0 +1,17 @@
+# Number; Cloze phrase; Reference
+# Chapter 4
+SP_CH4_01; A {{c1::random variable}} \(\mathbf{x}\) is a process of assigning a number \(\mathbf{x}(\zeta)\) to every outcome \(\zeta\); Definition, pg 74
+SP_CH4_02; The {{c1::cumulative distribution function}} of the random variable \(\mathbf{x}\) is the function \(F_{\mathbf{x} }(x) = \) {{c2::\(P\{ \zeta | \mathbf{x}(\zeta) \leq x \} \) }}; Equation 4-1, pg 75
+SP_CH4_03; The {{c1::\(u\) percentile}} of a random variable \(\mathbf{x}\) is the smallest number \(x_u\) such that \(u = \) {{c2::\(P\{ \mathbf{x} \leq x_u \} = F_{\mathbf{x} }(x_u) \)}}; Equation 4-2, pg 77
+SP_CH4_04; \(F(\infty) = \) {{c1::\(1\)}}; Property 1, pg 78
+SP_CH4_05; \(F(-\infty) = \) {{c1::\(0\)}}; Property 1, pg 78
+SP_CH4_06; If \(x_1 < x_2\) then \(F(x_1)\) {{c1::\(\leq\)}} \(F(x_2)\); Property 2, pg 78
+SP_CH4_07; If \(F(x_0) = 0\) then \(F(x) = \) {{c1::\(0\)}} for every {{c1::\(x \leq x_0\)}}; Property 3, pg 78
+SP_CH4_08; \(P\{\mathbf{x} > x \} = \) {{c1::\(1 - F(x)\)}}; Property 4, pg 79
+SP_CH4_09; The function \(F(x)\) is continuous from the {{c1::right}}, ie<br> \(F(x^+) = \) {{c1::\(F(x)\)}}; Property 5, pg 79
+SP_CH4_10; \(P\{ x_1 < \mathbf{x} \leq x_2 \} = \) {{c1::\(F(x_2) - F(x_1)\)}}; Property 6, pg 79
+SP_CH4_11; \(P\{\mathbf{x} = x \} = \) {{c1::\(F(x) - F(x^-)\)}}; Property 7, pg 79
+SP_CH4_12; \(P\{ x_1 \leq \mathbf{x} \leq x_2 \} = \) {{c1::\(F(x_2) - F(x_1^-)\)}}; Property 8, pg 79
+SP_CH4_13; The {{c1::derivative}} of the probability distribution function \(F_{\mathbf{x} }(x)\) is called the {{c2::probability density function}} \(f_{\mathbf{x} } (x)\).; Equation 4-13, pg 81
+SP_CH4_14; \(f_{\mathbf{x} } (x) =\) {{c1::\(\frac{d F_{\mathbf{x} }(x) } { dx} \)}}; Equation 4-13, pg 81
+SP_CH4_15; \(F_{\mathbf{x} } (x) =\) {{c1::\( \int_{-\infty}^{x} f_{\mathbf{x} }(u) du \)}}; Equation 4-13, pg 81

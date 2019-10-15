@@ -1,0 +1,25 @@
+# Number; Cloze phrase; Reference
+# Sets
+SP_CH2_01; The {{c1::sum}} or {{c1::union}} of two sets \(A\) and \(B\) is a set whose elements are all elements of {{c2::\(A\) or \(B\) or both}}. This is written {{c1::\(A + B\)}} or {{c1::\(A \cup B\)}}; pg 17
+SP_CH2_02; The {{c1::product}} or {{c1::intersection}} of two sets \(A\) and \(B\) is a set whose elements are all elements of {{c2::\(A\) and \(B\)}}. This is written {{c1::\(AB\)}} or {{c1::\(A \cap B\)}}; pg 17
+SP_CH2_03; \(A(B \cup C ) = \) {{c1::\(AB \cup AC\)}}; pg 17
+SP_CH2_04; Two sets \(A\) and \(B\) are said to be {{c1::mutually exclusive}} or {{c1::disjoint}} if they have {{c2::no common elements}}, that is, if {{c2::\(AB = \varnothing\)}}; pg 18
+SP_CH2_05; A {{c1::partition}} of a set \(S\) is a collection of {{c2::mutually exclusive}} subsets of \(S\) whose union {{c2::equals \(S\)}}; pg 18
+SP_CH2_06; The {{c1::complement}} \(\bar{A}\) of a set \(A\) is the set consisting of {{c2::all elements}} in \(S\) that {{c2::are not in}} \(A\);
+SP_CH2_07; De Morgan's Law <br> {{c1::\(\overline{A \cup B}\)}} \(=\) {{c2::\(\bar{A} \bar{B}\)}}; pg 18
+SP_CH2_08; De Morgan's Law <br> {{c1::\(\overline{AB}\)}} \(=\) {{c2::\(\bar{A} \cup \bar{B}\)}}; pg 18
+SP_CH2_09; If \(A\) is a set with \(N\) elements, the cardinality of \(A\) is \(|A| = \) {{c1::\(N\)}}; Class notes
+SP_CH2_10; If \(A\) is a set with \(N\) elements, there are {{c1::\(2^N\)}} subsets in \(A\); Class notes
+#Probability
+SP_CH2_11; A {{c1::probability space}} is the triple \( (S \text{ or } \Omega, \mathcal{E}, P) \), where <br> \(S\) or \(\Omega\) is the {{c2::sample space}} or set of {{c2::all possible experimental outcomes}} <br> \(\mathcal{E}\) is the {{c2::event space}} <br> \(P\) is the {{c2::probability measure}} \(P\colon\) {{c2::\(\mathcal{E} \to [0, 1] \)}}; pg 19
+SP_CH2_12; For the probability measure \(P\) and the event \(A \in \mathcal{E}\) <br> \(P(A) \geq \) {{c1::\(0\)}}; Axiom I, pg 20
+SP_CH2_13; For the probability measure \(P\) <br> \(P(\Omega) = \) {{c1::\(1\)}}; Axiom II, pg 20
+SP_CH2_14; For the probability measure \(P\) and the events \(A, B \in \mathcal{E}\) <br> if \(AB = \varnothing \) then \(P(A \cup B) = \) {{c1::\(P(A) + P(B)\)}}; Axiom III, pg 20
+SP_CH2_15; For any \(A,\:B \in \mathcal{E}\), <br> \(P(A \cup B) = \) {{c1::\(P(A) + P(B) - P(AB) \)}} \(\leq\) {{c1::\(P(A) + P(B) \)}}; Equation 2-13, pg 20
+SP_CH2_16; The {{c1::conditional probability}} of an event \(A\) given the occurance of another event \(M\) is denoted {{c2::\(P(A|M)\)}}; Equation 2-33, pg 28
+SP_CH2_17; Conditional probability <br> \(P(A|M) = \) {{c1::\(\frac{P(AM)} {P(M)} \) }}; Equation 2-33, pg 28
+SP_CH2_18; \(A \cup B \) = {{c1::\(A \cup \bar{A} B\)}} <br> (Set trick for proofs); 
+SP_CH2_19; \( B \) = {{c1::\(SB\)}} = {{c1::\( (A \cup \bar{A}) B\) }} <br> (Set trick for proofs);
+SP_CH2_20; If \(\{A_1, \dots, A_n\}\) is a partition of \(S\) and \(B\) is an arbitrary event, then <br> \(P(B) = \) {{c1::\(P(B|A_1)P(A_1) + \dots + P(B|A_n)P(A_n) \)}}; Total probability theorem, pg 32
+SP_CH2_21; Baye's Rule <br> \(P(A | B) = \) {{c1::\(\frac{P(B | A) P(A)} {P(B)}\) }}; 
+SP_CH2_22; Two events \(A\) and \(B\) are {{c1::independent}} if \(P(AB) = \) {{c2:: \(P(A)P(B)\) }}; Equation 2-50, pg 35
