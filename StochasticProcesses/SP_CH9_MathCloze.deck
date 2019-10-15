@@ -1,0 +1,10 @@
+# Number; Cloze phrase; Reference
+# Sets
+SP_CH9_01a; A stochastic process \(\mathbf{x}(t) \) is a rule for assigning to every \(\zeta\) a function {{c1::\(\mathbf{x} (t, \zeta) \)}}; pg 373
+SP_CH9_01b; A stochastic process is a mapping from {{c1::the sample space}} to {{c1::a real-valued function of time}}; pg 373
+SP_CH9_02; If \(t\) and \(\zeta\) are {{c1::variables}}, then \(\mathbf{x} (t, \zeta)\) is an {{c2::ensemble}} or {{c2::family}} of functions; Interpretation 1, pg 373
+SP_CH9_03; If \(t\) is {{c1::variable}} and \(\zeta\) is {{c1::fixed}}, then \(\mathbf{x} (t, \zeta)\) is a {{c2::sample}} or {{c2::realization}}; Interpretation 2, pg 373
+SP_CH9_04; If \(t\) is {{c1::fixed}} and \(\zeta\) is {{c1::variable}}, then \(\mathbf{x} (t, \zeta)\) is a {{c2::random variable}}; Interpretation 3, pg 373
+SP_CH9_05; If \(t\) is {{c1::fixed}} and \(\zeta\) is {{c1::fixed}}, then \(\mathbf{x} (t, \zeta)\) is a {{c2::number}}; Interpretation 4, pg 373
+SP_CH9_06; "Joint distribution of \(\mathbf{x}_1 (t_1, \zeta)\) and \(\mathbf{x}_2 (t_2, \zeta)\) \[F(x_1, x_2; t_1, t_2) = \] {{c1::\[P(\{\zeta | \mathbf{x}_1 (t_1, \zeta) \leq x_1 \cap \mathbf{x}_2 (t_2, \zeta) \leq x_2 \} ) \] }}"; Equation 9-5, pg 375
+
