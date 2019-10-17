@@ -14,4 +14,4 @@ SP_CH4_11; \(P\{\mathbf{x} = x \} = \) {{c1::\(F(x) - F(x^-)\)}}; Property 7, pg
 SP_CH4_12; \(P\{ x_1 \leq \mathbf{x} \leq x_2 \} = \) {{c1::\(F(x_2) - F(x_1^-)\)}}; Property 8, pg 79
 SP_CH4_13; The {{c1::derivative}} of the probability distribution function \(F_{\mathbf{x} }(x)\) is called the {{c2::probability density function}} \(f_{\mathbf{x} } (x)\).; Equation 4-13, pg 81
 SP_CH4_14; \(f_{\mathbf{x} } (x) =\) {{c1::\(\frac{d F_{\mathbf{x} }(x) } { dx} \)}}; Equation 4-13, pg 81
-SP_CH4_15; \(F_{\mathbf{x} } (x) =\) {{c1::\( \int_{-\infty}^{x} f_{\mathbf{x} }(u) du \)}}; Equation 4-13, pg 81
+SP_CH4_15; \(F_{\mathbf{x} } (x) =\) {{c1::\(\dots f_x(\cdot) \dots \)::\( \int_{-\infty}^{x} f_{\mathbf{x} }(u) du \)}}; Equation 4-13, pg 81
