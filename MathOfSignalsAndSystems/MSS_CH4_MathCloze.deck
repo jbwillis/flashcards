@@ -3,29 +3,47 @@
 MSS_CH4_01; A transformation \(A:X\to Y\), where \(X\) and \(Y\) are {{c1::vector spaces over a ring R}} is said to be {{c2::linear}} if for every {{c3::\(x_1, x_2 \in X\)}} and all {{c3::scalars \(\alpha_1, \alpha_2 \in R\)}} <br> {{c3::\( A( \alpha_1 x_1 + \alpha_2 x_2) = \alpha_1 A (x_1) + \alpha_2 A (x_2) \)}}; Defintion 4.1, pg 230
 MSS_CH4_02; A {{c1::functional}} \(f\colon \) {{c2::\(X\)}} \(\to\) {{c2::\( \mathbb{R} \)}} is a mapping from a {{c2::vector space}} to a {{c2::real scalar value}}.; Definition 4.2, pg 231
 MSS_CH4_03; An operator norm provides an indication of the {{c1::maximal amount}} of change of {{c1::length of a vector}} that it operates on.; Section 4.2, pg 232
-MSS_CH4_04; The p {{c1::operator norm}} of \(A:X\toY\) is <br> \(\|A\|_p = \) {{c2::\( \sup_{x\in X, \neq 0} \frac{\|Ax\|_p} {\|x\|_p} \)}} \(=\) {{c3::\(\sup_{x\inX, \|x\| = 1} \|Ax\|_p }}; Section 4.2, pg 232
-MSS_CH4_05; The operator norm \(\|A\|_{op}\) can also be defined with the \(\inf\): <br> \(\|A\|_{op} =\) {{c1::\( \inf{ c \geq 0 : \|Ax\| \leq c\|x\| for all x \in X} \) }}; Wikipedia, Equivalent Definitions of Operator Norms
+MSS_CH4_04; The p {{c1::operator norm}} of \(A:X \to Y\) is <br> \(\|A\|_p = \) {{c2::\( \sup_{x \in X, \neq 0} \frac{\|Ax\|_p} {\|x\|_p} \)}} \(=\) {{c3::\( \sup_{x \in X, \|x\| = 1} \|Ax\|_p \) }}; Section 4.2, pg 232
+MSS_CH4_05; The operator norm \(\|A\|_{op}\) can also be defined with the \(\inf\): <br> \(\|A\|_{op} =\) {{c1::\( \inf \{ c \geq 0 : \|Ax\| \leq c\|x\| \text{ for all } x \in X \} \) }}; Wikipedia, Equivalent Definitions of Operator Norms
 MSS_CH4_06; If the {{c1::norm}} of a transformation is {{c1::finite}}, the transformation is said to be {{c2::bounded}}.; Defintion 4.3, pg 233
-MSS_CH4_07; A linear operator \(A: X \to Y\) is bounded {{c1::if and only if it is continuous}}.; Theorem 4.1, pg 233
+MSS_CH4_07; A linear operator \(A: X \to Y\) is bounded {{c1::if and only if it is}} continuous.; Theorem 4.1, pg 233
 MSS_CH4_08; Let \(A: X \to Y\) be a linear operator. If {{c1::\(X\)}} is {{c1::finite dimensional}}, then \(A\) is {{c2::continuous}}.; Theorem 4.2, pg 233
 MSS_CH4_09; For a scalar \(x\) where \(|x| < 1\), <br> {{c1::\(1 + x + x^2 + \cdots\)}} \(=\) {{c1::\( \sum_{i=0}^{\infty} x^i \)}} \(=\) {{c2::\( \frac{1}{1 - x} \)}} \(=\) {{c2::\( (1-x)^{-1} \) }}; Neumann expansion, pg 235
-MSS_CH4_10; Suppose \(\|\cdot\|\) is a norm satisfying the submultiplicative property and \(A\) is an operator with \(\|A\|\) {{c1::\(< 1\)}}. Then, <br> \( (I - A)6{-1} = \) {{c2::\( \sum_{i=0}^{\infty} A^i \) }}; Theorem 4.3, pg 235
+MSS_CH4_10; Suppose \(\|\cdot\|\) is a norm satisfying the submultiplicative property and \(A\) is an operator with \(\|A\|\) {{c1::\(< 1\)}}. Then, <br> \( (I - A)^{-1} = \) {{c2::\( \sum_{i=0}^{\infty} A^i \) }}; Theorem 4.3, pg 235
 MSS_CH4_11; The {{c1::\(p\)}} norms satisfy the submultiplicative property; pg 233
 MSS_CH4_12; The {{c2::submultiplicative property}}<br> {{c1::\( \|AB\| \)}} \( \leq \) {{c3:: \( \|A\| \|B\| \) }}; pg 233
 MSS_CH4_13; For a matrix \(A\) <br> \(\|A\|_{\infty} = \) {{c1::\( \max_i \sum_j |a_{ij}| \)}}; Equation 4.5, pg 235
 MSS_CH4_14; For a matrix \(A\) <br> \(\|A\|_{1} = \) {{c1::\( \max_j \sum_i |a_{ij}| \)}}; Equation 4.6, pg 236
 MSS_CH4_15; For a matrix \(A\), \(\|A\|_{\infty}\) is the largest {{c1::row sum}}; Equation 4.5, pg 235
 MSS_CH4_16; For a matrix \(A\), \(\|A\|_{1}\) is the largest {{c1::column sum}}; Equation 4.6, pg 236
-MSS_CH4_17; The {{c1::Frobenius norm}} (sum form) <br> \(\|A\|_F = \) {{c2::\( \right( \sum_i \sum_j |a_{ij}|^2 \left)^{1/2} \) }}; pg 237
-MSS_CH4_18; The {{c1::Frobenius norm}} (trace form) <br> \(\|A\|_F = \) {{c2::\( \mathrm{tr}(A^H A) \) }}; pg 237
-MSS_CH4_19; The {{c1::adjoint}} is defined for \(A: X \to Y\), a {{c2::bounded linear operator}} where \(X,Y\) are {{c3::Hilbert spaces}}.; Definition 4.4, pg 237
+MSS_CH4_17; The {{c1::Frobenius norm}} (sum form) <br> \(\|A\|_F = \) {{c2::\( \left( \sum_i \sum_j | a_{ij} |^2 \right)^{1/2} \) }}; pg 237
+MSS_CH4_18; The {{c1::Frobenius norm}} (trace form) <br> \(\|A\|_F = \) {{c2::\( \mathrm{tr}(A^H A)^{1/2} \) }}; pg 237
+MSS_CH4_19; The adjoint is defined for \(A: X \to Y\), a {{c2::bounded linear operator}} where \(X,Y\) are {{c1::Hilbert spaces}}.; Definition 4.4, pg 237
 MSS_CH4_20; The {{c1::adjoint}} of the operator \(A: X \to Y\) is the operator {{c2::\(A^* : Y \to X \)}}; Defintion 4.4, pg 237
-MSS_CH4_21; The {{c1::adjoint}} of the operator \(A: X \to Y\) is <br> {{c2::\( \rangle Ax, y \langle\)}} \(=\) {{c3::\( \rangle x, A^* y \langle\)}} <br> for all \(x, y\); Defintion 4.4, pg 237
+MSS_CH4_21; The {{c1::adjoint}} of the operator \(A: X \to Y\) is <br> {{c2::\( \langle Ax, y \rangle\)}} \(=\) {{c3::\( \langle x, A^* y \rangle\)}} <br> for all \(x, y\); Defintion 4.4, pg 237
 MSS_CH4_22; An operator \(A\) is {{c1::self-adjoint}} if {{c2::\(A^* = A\)}}; Defintion 4.4, pg 237
 MSS_CH4_23; The adjoint of a matrix is the {{c1::conjugate transpose}} of the matrix.; pg 238
 MSS_CH4_24; A real matrix which is self-adjoint is said to be {{c1::symmetric}}; pg 238
 MSS_CH4_25; A complex matrix which is self-adjoint is said to be {{c1::Hermitian}}; pg 238
 MSS_CH4_26; {{c1::\( (A_2 A_1)^*\)}} \(=\) {{c2::\(A_1^* A_2^*\)}}; Property 3, pg 238
-
+MSS_CH4_27; {{c1::\( (A_1 + A_2)^*\)}} \(=\) {{c2::\(A_1^* + A_2^*\)}}; Property 1, pg 238
+MSS_CH4_28; {{c1::\( (\alpha A)^*\)}} \(=\) {{c2::\(\bar{\alpha} A\)}}; Property 2, pg 238
+MSS_CH4_29; If A has an inverse, then <br> {{c1::\( (A^{-1})^* \)}} = {{c2::\( (A^*)^{-1} \)}}; Property 4, pg 238
+MSS_CH4_30; The space spanned by the columns of a matrix is called the {{c1::column space}} or {{c1::range}} of the matrix.; Definition 4.5, pg 241
+MSS_CH4_31; The range of a matrix \(A\) is denoted {{c1::\( \mathcal{R} (A) \)}}; Defintion 4.5, pg 241
+MSS_CH4_32; The equation \(A\mathbf{x} = \mathbf{b}\) has a solution only if \(b\) {{c1::lies in the column space of \(A\)}}; Box, pg 241
+MSS_CH4_33; The {{c1::nullspace}} of a linear operator \(A: X \to Y\) consists of all vectors \(x \in X\) such that {{c2::\(Ax = 0\)}}; Defintion 4.6, pg 242
+MSS_CH4_34; The nullspace of \(A\) is denoted as {{c1::\(\mathcal{N}(A)\)}}; Defintion 4.6, pg 242
+MSS_CH4_35; The dimension of \(\mathcal{N}(A)\) is called the {{c1::nullity}} of A; Defintion 4.6, pg 242
+MSS_CH4_36; For a linear operator \(A: X \to Y\), the {{c1::range of the adjoint}} is denoted {{c2::\(\mathcal{R} (A^*)\)}}; pg 242
+MSS_CH4_37; For a linear operator \(A: X \to Y\), the {{c1::nullspace of the adjoint}} is denoted {{c2::\(\mathcal{N} (A^*)\)}} and is also called the {{c3::left nullspace}}; pg 242
+MSS_CH4_38; For a linear operator \(A: X \to Y\), \(\mathcal{R}(A) \subset \) {{c1::\(Y\)}}; Equation 4.19 pg 242
+MSS_CH4_39; For a linear operator \(A: X \to Y\), \(\mathcal{N}(A) \subset \) {{c1::\(X\)}}; Equation 4.19 pg 242
+MSS_CH4_40; For a linear operator \(A: X \to Y\), \(\mathcal{R}(A^*) \subset \) {{c1::\(X\)}}; Equation 4.19 pg 242
+MSS_CH4_41; For a linear operator \(A: X \to Y\), \(\mathcal{N}(A^*) \subset \) {{c1::\(Y\)}}; Equation 4.19 pg 242
+MSS_CH4_42; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( [ \mathcal{R}(A)]^\bot \) }} \(=\) {{c2::\( \mathcal{N}(A^*)\)}}; Equation 4.20, pg 242
+MSS_CH4_43; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( [ \mathcal{R}(A^*)]^\bot \) }} \(=\) {{c2::\( \mathcal{N}(A)\)}}; Equation 4.21, pg 243
+MSS_CH4_44; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( \mathcal{R}(A)\bot \) }} \(=\) {{c2::\( [\mathcal{N}(A^*)]^\bot\)}}; Equation 4.20, pg 242
+MSS_CH4_45; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( \mathcal{R}(A^*)\bot \) }} \(=\) {{c2::\( [\mathcal{N}(A)]^\bot \)}}; Equation 4.21, pg 243
 
 
