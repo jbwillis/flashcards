@@ -27,11 +27,11 @@ MSS_CH4_24; A real matrix which is self-adjoint is said to be {{c1::symmetric}};
 MSS_CH4_25; A complex matrix which is self-adjoint is said to be {{c1::Hermitian}}; pg 238
 MSS_CH4_26; {{c1::\( (A_2 A_1)^*\)}} \(=\) {{c2::\(A_1^* A_2^*\)}}; Property 3, pg 238
 MSS_CH4_27; {{c1::\( (A_1 + A_2)^*\)}} \(=\) {{c2::\(A_1^* + A_2^*\)}}; Property 1, pg 238
-MSS_CH4_28; {{c1::\( (\alpha A)^*\)}} \(=\) {{c2::\(\bar{\alpha} A\)}}; Property 2, pg 238
+MSS_CH4_28; {{c1::\( (\alpha A)^*\)}} \(=\) {{c2::\(\bar{\alpha} A^*\)}}; Property 2, pg 238
 MSS_CH4_29; If A has an inverse, then <br> {{c1::\( (A^{-1})^* \)}} = {{c2::\( (A^*)^{-1} \)}}; Property 4, pg 238
 MSS_CH4_30; The space spanned by the columns of a matrix is called the {{c1::column space}} or {{c1::range}} of the matrix.; Definition 4.5, pg 241
 MSS_CH4_31; The range of a matrix \(A\) is denoted {{c1::\( \mathcal{R} (A) \)}}; Defintion 4.5, pg 241
-MSS_CH4_32; The equation \(A\mathbf{x} = \mathbf{b}\) has a solution only if \(b\) {{c1::lies in the column space of \(A\)}}; Box, pg 241
+MSS_CH4_32; The equation \(A\mathbf{x} = \mathbf{b}\) has a solution only if \(\mathbf{b}\) {{c1::lies in the column space of \(A\)}}; Box, pg 241
 MSS_CH4_33; The {{c1::nullspace}} of a linear operator \(A: X \to Y\) consists of all vectors \(x \in X\) such that {{c2::\(Ax = 0\)}}; Defintion 4.6, pg 242
 MSS_CH4_34; The nullspace of \(A\) is denoted as {{c1::\(\mathcal{N}(A)\)}}; Defintion 4.6, pg 242
 MSS_CH4_35; The dimension of \(\mathcal{N}(A)\) is called the {{c1::nullity}} of A; Defintion 4.6, pg 242
@@ -43,7 +43,7 @@ MSS_CH4_40; For a linear operator \(A: X \to Y\), \(\mathcal{R}(A^*) \subset \) 
 MSS_CH4_41; For a linear operator \(A: X \to Y\), \(\mathcal{N}(A^*) \subset \) {{c1::\(Y\)}}; Equation 4.19 pg 242
 MSS_CH4_42; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( [ \mathcal{R}(A)]^\bot \) }} \(=\) {{c2::\( \mathcal{N}(A^*)\)}}; Equation 4.20, pg 242
 MSS_CH4_43; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( [ \mathcal{R}(A^*)]^\bot \) }} \(=\) {{c2::\( \mathcal{N}(A)\)}}; Equation 4.21, pg 243
-MSS_CH4_44; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( \mathcal{R}(A)\bot \) }} \(=\) {{c2::\( [\mathcal{N}(A^*)]^\bot\)}}; Equation 4.20, pg 242
-MSS_CH4_45; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( \mathcal{R}(A^*)\bot \) }} \(=\) {{c2::\( [\mathcal{N}(A)]^\bot \)}}; Equation 4.21, pg 243
+MSS_CH4_44; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( \mathcal{R}(A)\) }} \(=\) {{c2::\( [\mathcal{N}(A^*)]^\bot\)}}; Equation 4.20, pg 242
+MSS_CH4_45; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( \mathcal{R}(A^*) \) }} \(=\) {{c2::\( [\mathcal{N}(A)]^\bot \)}}; Equation 4.21, pg 243
 
 

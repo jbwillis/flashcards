@@ -7,16 +7,16 @@ SP_CH9_03; If \(t\) is {{c1::variable}} and \(\zeta\) is {{c1::fixed}}, then \(\
 SP_CH9_04; If \(t\) is {{c1::fixed}} and \(\zeta\) is {{c1::variable}}, then \(\mathbf{x} (t, \zeta)\) is a {{c2::random variable}}; Interpretation 3, pg 373
 SP_CH9_05; If \(t\) is {{c1::fixed}} and \(\zeta\) is {{c1::fixed}}, then \(\mathbf{x} (t, \zeta)\) is a {{c2::number}}; Interpretation 4, pg 373
 SP_CH9_06; "Joint distribution of \(\mathbf{x}_1 (t_1, \zeta)\) and \(\mathbf{x}_2 (t_2, \zeta)\) \[F(x_1, x_2; t_1, t_2) = \] {{c1::\[P(\{\zeta | \mathbf{x}_1 (t_1, \zeta) \leq x_1 \cap \mathbf{x}_2 (t_2, \zeta) \leq x_2 \} ) \] }}"; Equation 9-5, pg 375
-SP_CH9_07; \(F_{\mathbf{x} } (x, t) = \) {{c1::\(P\{ \dots\} \)::\(P\{ \mathbf{x}(t) \leq x \} \)}}; Equation 9-2, pg 375
+SP_CH9_07; \(F_{\mathbf{x} } (x, t) = \) {{c1::\(P\{ \mathbf{x}(t) \leq x \} \)::\(P\{ \dots\} \)}}; Equation 9-2, pg 375
 SP_CH9_08; The function \(F_{\mathbf{x} } (x, t)\) is called the {{c1::first-order distribution}} of the process \(\mathbf{x} (t)\); pg 373
 SP_CH9_09; \(f_{\mathbf{x} } (x,t) = \) {{c1::\( \frac{\partial F_{\mathbf{x} } (x, t) } {\partial x} \)}} is the {{c2::first-order density}} of \(\mathbf{x}(t)\); Equation 9-3, pg 375
-SP_CH9_10; "\(F_{\mathbf{x} } (x_1, x_2; t_1, t_2) = \) {{c1::\(P\{ \dots\} \)::\(P\{ \zeta | \mathbf{x}(t_1) \leq x_1 \cap \mathbf{x}(t_2) \leq x_2 \} \)}}" ; Equation 9-5, pg 375
+SP_CH9_10; "\(F_{\mathbf{x} } (x_1, x_2; t_1, t_2) = \) {{c1::\(P\{ \zeta | \mathbf{x}(t_1) \leq x_1 \cap \mathbf{x}(t_2) \leq x_2 \} \)::\(P\{ \dots\} \)}}" ; Equation 9-5, pg 375
 SP_CH9_11; "The function \(F_{\mathbf{x} } (x_1, x_2; t_1, t_2) \) is called the {{c1::second-order distribution}} of the process \(\mathbf{x} (t)\)" ; pg 373
 SP_CH9_12; "\(f_{\mathbf{x} } (x_1, x_2; t_1, t_2) = \) {{c1::\( \frac{\partial^2 F_{\mathbf{x} } (x_1, x_2; t_1, t_2) } {\partial x_1 \partial x_2} \)}} is the {{c2::second-order density}} of \(\mathbf{x}(t)\)"; Equation 9-6, pg 375
 SP_CH9_13; The {{c1::mean}} of \(\mathbf{x} (t)\) is the {{c2::expected value}} of {{c2::\(\mathbf{x}(t)\)}}; Equation 9-7, pg 376
 SP_CH9_14; {{c1::\( \eta(t) \) }} \(=\) {{c2::\( E\{ \mathbf{x} (t) \} \)}} \(=\) {{c2:: \( \int_{-\infty}^{\infty} x f(x, t) dx\)}}; Equation 9-7, 376
 SP_CH9_15; The {{c1::autocorrelation}} {{c2::\(R(t_1, t_2) \) }} of \(\mathbf{x} (t) \) is the expected value of {{c3::\( \mathbf{x} (t_1) \mathbf{x}^* (t_2) \)}}; Equation 9-8, pg 376
 SP_CH9_16; {{c1::\( R(t_1, t_2) \)}} \(=\) {{c2::\(E\{\mathbf{x} (t_1) \mathbf{x}^* (t_2)\} \) }}; Equation 9-8, pg 376
-SP_CH9_17; "{{c1::\[E\{\mathbf{x} (t_1) \mathbf{x} (t_2)\} \] }} \(=\) {{c2::\[ \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} x_1 x_2 f(x_1, x_2; t_1, t_2) dx_1 dx_2 \] }}"; Equation 9-8, pg 376
+SP_CH9_17; "{{c1::\[E\{\mathbf{x} (t_1) \mathbf{x}^* (t_2)\} \] }} \(=\) {{c2::\[ \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} x_1 x_2 f(x_1, x_2; t_1, t_2) dx_1 dx_2 \] }}"; Equation 9-8, pg 376
 SP_CH9_18; {{c1::\(R(t_1, t_2)\)}} \(=\) {{c1::\(E\{\mathbf{x}^2 (t)\} \)}} is the {{c2:: average power}} of \(\mathbf{x} (t)\); Equation 9-9, pg 376
 SP_CH9_19; The {{c1::autocovariance}} is <br> {{c2::\(C(t_1, t_2)\)}} \(=\) {{c3::\(R(t_1, t_2) - \eta(t_1) \eta^*(t_2)\)}}; Equation 9-9, pg 376

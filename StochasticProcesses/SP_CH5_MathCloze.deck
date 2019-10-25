@@ -1,6 +1,6 @@
 # Number; Cloze phrase; Reference
 #Chapter 5
-SP_CH5_01; The {{c1::expected value}} or {{c1::mean}} of a random variable \(\mathbf(x)\) is by definition the integral <br> {{c1::\(E[\mathbf{x}] =\) }} {{c2:: \( \int_{-\infty}^{\infty} x f(x) dx\)}}; Equation 5-44, pg 140
+SP_CH5_01; The {{c1::expected value}} or {{c1::mean}} of a random variable \(\mathbf{x}\) is by definition the integral <br> {{c1::\(E[\mathbf{x}] =\) }} {{c2:: \( \int_{-\infty}^{\infty} x f(x) dx\)}}; Equation 5-44, pg 140
 SP_CH5_02; \(E[a\mathbf{x} + b] =\) {{c1::\(aE[\mathbf{x}] + b\)}}; 
 SP_CH5_03; \(E[g(\mathbf{x})] = \){{c1::\( \int_{-\infty}^{\infty} g(x) f_{\mathbf{x} }(x) dx\) }};
 SP_CH5_04; Variance <br> {{c1::\(E[(\mathbf{x} - \mu)^2] \)}} \(=\) {{c2::\(E[\mathbf{x}^2] -  (E[\mathbf{x}])^2 \) }}; Equations 5-59 and 5-61, pg 144-45,
