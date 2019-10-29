@@ -45,5 +45,13 @@ MSS_CH4_42; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert
 MSS_CH4_43; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( [ \mathcal{R}(A^*)]^\bot \) }} \(=\) {{c2::\( \mathcal{N}(A)\)}}; Equation 4.21, pg 243
 MSS_CH4_44; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( \mathcal{R}(A)\) }} \(=\) {{c2::\( [\mathcal{N}(A^*)]^\bot\)}}; Equation 4.20, pg 242
 MSS_CH4_45; Let \(A: X \to Y\) be a bounded linear operator with \(X,Y\) Hilbert spaces, and let \(\mathcal{R}(A)\) and \(\mathcal{R}(A^*)\) be closed. Then <br> {{c1::\( \mathcal{R}(A^*) \) }} \(=\) {{c2::\( [\mathcal{N}(A)]^\bot \)}}; Equation 4.21, pg 243
-
-
+MSS_CH4_46; A matrix \(A\) is said to have a {{c1::left inverse}} if there is a matrix \(B\) such that {{c2::\(BA = I\)}}; Definition 4.8, pg 247
+MSS_CH4_47; A matrix \(A\) is said to have a {{c1::right inverse}} if there is a matrix \(B\) such that {{c2::\(AB = I\)}}; Definition 4.8, pg 247
+MSS_CH4_48; {{c1::\(\operatorname{dim}(\mathcal{R}(A))\)}} = {{c2::\(\operatorname{dim}(\mathcal{R}(A^*))\)}}; Notes from 17-Oct
+MSS_CH4_49; A \(n \times n\) matrix is invertible if \(\mathcal{N}(A) = \) {{c1::\(\{0\}\)}}; Test 1, pg 248
+MSS_CH4_50; A \(n \times n\) matrix is invertible if \(\operatorname{rank}(A) =\) {{c1::\(n\)}}; Test 2, pg 248
+MSS_CH4_51; A \(n \times n\) matrix is invertible if the rows and columns of \(A\) are {{c1::linearly independent}}; Test 3, pg 248
+MSS_CH4_52; A \(n \times n\) matrix is invertible if the determinant of \(A\) is {{c1::nonzero}}; Test 4, pg 248
+MSS_CH4_53; A \(n \times n\) matrix is invertible if there are no {{c1::zero}} eigenvalues of \(A\); Test 5, pg 248
+MSS_CH4_54; A \(n \times n\) matrix is invertible if {{c1::\(A^H A\)}} is {{c2::positive definite}}; Test 6, pg 248
+MSS_CH4_55; A matrix \(A\) is {{c1::nonsingular}} if {{c2::\(A\mathbf{x} = \mathbf{0}\)}} has only the solution {{c2::\(\mathbf{x} = \mathbf{0}\)}}; Defintion 4.9, pg 248
