@@ -55,3 +55,6 @@ MSS_CH4_52; A \(n \times n\) matrix is invertible if the determinant of \(A\) is
 MSS_CH4_53; A \(n \times n\) matrix is invertible if there are no {{c1::zero}} eigenvalues of \(A\); Test 5, pg 248
 MSS_CH4_54; A \(n \times n\) matrix is invertible if {{c1::\(A^H A\)}} is {{c2::positive definite}}; Test 6, pg 248
 MSS_CH4_55; A matrix \(A\) is {{c1::nonsingular}} if {{c2::\(A\mathbf{x} = \mathbf{0}\)}} has only the solution {{c2::\(\mathbf{x} = \mathbf{0}\)}}; Defintion 4.9, pg 248
+MSS_CH4_56; The {{c1::condition number}} of a matrix \(A\) is \(\kappa(A) = \) {{c2::\( \|A\| \|A^{-1}\| \)}}; pg 254
+MSS_CH4_57; Rule of thumb with condition number<br>Let \(p = \) {{c1::\( \log_10(\kappa(A)) \)}}. <br> If the solution is computed to \(n\) decimal places, then only about {{c2::\(n -p\)}} places can be considered to be accurate.; pg 256
+

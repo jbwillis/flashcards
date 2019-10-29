@@ -1,0 +1,12 @@
+# Number; Cloze phrase; Reference
+# Chapter 5
+MSS_CH5_01; The {{c1::LU}} factorization. <br> {{c2::\(PA = LU\)}}; Equation 5.2, pg 276 
+MSS_CH5_02; In the LU factorization, \(PA = LU\), the matrix \(A\) must be {{c1::square}};Equation 5.2, pg 276
+MSS_CH5_03; In the LU factorization, \(PA = LU\), {{c1::\(L\)}} is a {{c2::lower-triangular}} matrix with {{c2::ones}} on the {{c2::main diagonal}}; Equation 5.2, pg 276 
+MSS_CH5_04; In the LU factorization, \(PA = LU\), {{c1::\(U\)}} is a {{c2::upper-triangular}} matrix; Equation 5.2, pg 276 
+MSS_CH5_05; In the LU factorization, \(PA = LU\), {{c1::\(P\)}} is a {{c2::permutation}} matrix; Equation 5.2, pg 276 
+MSS_CH5_06; The {{c1::Cholesky}} factorization. <br> {{c2::\(A = LL^H\)}}; pg 283
+MSS_CH5_07; The {{c1::Cholesky}} factorization can be interpreted as a {{c2::Matrix square-root}}; pg 283
+MSS_CH5_08; In the Cholesky factorization, \(A = LL^H\), \(L\) is {{c1::lower-triangular}}; pg 283
+MSS_CH5_09; In the Cholesky factorization, \(A = LL^H\), \(A\) must be {{c1::Hermitian}}, {{c1::square}}, and {{c2::positive-definite}}; pg 283
+
