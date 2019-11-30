@@ -26,3 +26,15 @@ SP_CH9_21B; A  stochastic process \(\mathbf{x}(t)\) is called {{c1::wide-sense s
 SP_CH9_22; If a process is {{c1::strict-sense stationary::...stationary}}, then it is also {{c1::wide-sense stationary::...stationary}}; pg 390
 SP_CH9_23; A system is called {{c1::memoryless}} if at a given time \(t = t_1\), the output \(\mathbf{y}(t_1)\) depends {{c2::only on \(\mathbf{x}(t_1)\)}} and not on {{c2::any other past or future values}} of \(\mathbf{x} (t)\).;Memoryless Systems, pg 394
 SP_CH9_24; For any {{c1::linear}} system, <br> {{c2::\(E\{ L[\mathbf{x}(t)] \} \)}} \(=\) {{c3::\(L[ E\{\mathbf{x}(t) \}] \)}}; Equation 9-88, pg 398
+SP_CH9_25; The {{c1::power spectral density}} of a {{c2::WSS}} process \(\mathbf{x}(t)\), real or complex, is the {{c3::Fourier transform}} of its {{c3::autocorrelation}}.; Definition, pg 408
+SP_CH9_26; \[S(\omega) = \] {{c1::\[\int_{-\infty}^{\infty} R(\tau) e^{-j\omega \tau} d\tau\]::\[\dots \int R(\cdot) \dots\]}}; Equation 9-133, pg 408
+SP_CH9_27; {{c1::\(S_{yy}(\omega) \)}} = {{c2::\(S_{xx} (\omega) | H(\omega) |^2\):: \(S_{xx}(\omega) \dots\)}}; Equation 9-149, pg 412
+SP_CH9_28; {{c1::\(R_{yy}(\tau) \)}} = {{c2::\(R_{xx} (\tau) * h(\tau) * h^*(-\tau) \) :: \(R_{xx} (\tau) \dots \)}}; Equation 9-148, pg 412
+SP_CH9_29; If \(h([n]\) is real, <br> \(S_{yy}(z) = \) {{c1::\(S_{yy}(z) = S_{xx}(z) H(z) H(1/z) \)::\(S_{xx}(z)\)}}; Equation 9-211, pg 425
+SP_CH9_30; A white process has autocorrelation \(R(t_1, t_2) =\) {{c1::\(q(t_1)\delta(t_1 -t_2)\)}}; Equation 9-43, pg 385
+SP_CH9_31; In the z-domain, \(\eta_y\) = {{c1::\( \eta_x H(1)\)}}; Section 9-4 slides, pg 38
+SP_CH9_32; If \(\mathbf{z} = \mathbf{x} + j\mathbf{y} \), then \(E[\mathbf{z}] = \) {{c1::\( E[\mathbf{x}] + jE[\mathbf{y}] \)}}; pg 143
+SP_CH9_33; Let \(\mathbf{X}\) be a vector of random variables with \(E[\mathbf{x}] = M\), then the covariance \(C_{\mathbf{XX} } = \) {{c1::\(E[(\mathbf{X} - M) (\mathbf{X} - M)^\top ]\)}}; Complex RV and RP slides, pg 9
+SP_CH9_34; Let \(\mathbf{X}\) be a vector of jointly normal random variables, and let \( \mathbf{Y} = A\mathbf{X}\). <br> Then \(E[\mathbf{Y}] = \) {{c1::\(A E[\mathbf{X}]\)}}; Complex RV and RP slides, pg 24
+SP_CH9_35; Let \(\mathbf{X}\) be a vector of jointly normal random variables, and let \( \mathbf{Y} = A\mathbf{X}\). <br> Then \(C{\mathbf{Y}]} = E[(\mathbf{Y} - M_\mathbf{Y}) (\mathbf{Y} - M_\mathbf{Y})^\top ]\) = {{c1::\(A C_\mathbf{X} A^\top \)::\(\dots C_\mathbf{X} \dots\)}}; Complex RV and RP slides, pg 24
+
