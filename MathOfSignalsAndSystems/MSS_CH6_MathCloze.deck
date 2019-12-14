@@ -1,0 +1,12 @@
+# Number; Cloze phrase; Reference
+# Chapter 6
+MSS_CH6_01; An eigenvalue and an eigenvector of a matrix \(A\) is a scalar \(\lambda\) and a vector \(\mathbf{x}\) that satisfy <br> {{c1::\(A \mathbf{x} = \lambda \mathbf{x} \) }}; Equation 6.5, pg 306
+MSS_CH6_02; The eigenvectors of \(A\) are those vectors that are {{c1::scaled}} and not changed in {{c1::direction}}.; pg 306
+MSS_CH6_03; The {{c1::characteristic polynomial}} of \(A\) is <br> {{c2::\(\mathrm{det}(\lambda I - A) \) }}. <br>The {{c3::eigenvalues}} of \(A\) are the roots of the characteristic equation; Definition 6.2, pg 306
+MSS_CH6_04; The set of roots of the characteristic equation is called the {{c1::spectrum}} of \(A\) and is denoted \(\lambda(A)\); Definition 6.2, pg 306
+MSS_CH6_05; If the eigenvalues of an \(m \times m\) matrix \(A\) are all distinct, then the eigenvectors are {{c1::linearly independent}}; Lemma 6.1, pg 308
+MSS_CH6_06; If the eigenvectors of the matrix \(A\) are linearly independent, then \(A\) can be diagonalized as <br> \(A = \) {{c1::\(S \Lamda S^{-1} \) }} where \(S\) is a matrix whose {{c1::columns}} are the {{c1::eigenvectors}} of \(A\) and \(\Lambda\) is a diagonal matrix with the {{c1::eigenvalues}} of \(A\) on the diagonal.; Equation 6.11, pg 309
+MSS_CH6_07; Every self-adjoint matrix \(A\) can be diagonalized by a {{c1::unitary (orthogonal)}} matrix \(U\): <br> \(A = \) {{c2::\(U \Lambda U^H\) }}; Theorem 6.2, pg 313
+
+
+

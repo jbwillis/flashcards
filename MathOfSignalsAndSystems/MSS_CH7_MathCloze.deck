@@ -1,0 +1,15 @@
+# Number; Cloze phrase; Reference
+# Chapter 7
+MSS_CH7_01; The {{c1::singular value decomposition (SVD)}}. <br> Every matrix \(A \in \mathbb{C}^{m \times n} \) can be factored as <br> \(A = \) {{c2::\(U \Sigma V^H\) }}; Theorem 7.1, pg 369
+MSS_CH7_02; In the singular value decomposition, for a \(m \times n\) matrix \(A = U \Sigma V^H \) <br> \(U\) is {{c1::\(m \times m\)::dimension}} and \(U^H U = \) {{c1::\(I\)}}.; Theorem 7.1, pg 369
+MSS_CH7_03; In the singular value decomposition, for a \(m \times n\) matrix \(A = U \Sigma V^H \) <br> \(V\) is {{c1::\(n \times n\)::dimension}} and \(V^H V = \) {{c1::\(I\)}}.; Theorem 7.1, pg 369
+MSS_CH7_04; In the singular value decomposition, for a \(m \times n\) matrix \(A = U \Sigma V^H \) <br> \(\Sigma\) is {{c1::\(m \times n\)::dimension}} and diagonal; Theorem 7.1, pg 369
+MSS_CH7_05; In the singular value decomposition, for a \(m \times n\) matrix \(A = U \Sigma V^H \) <br> the singular values \(\sigma\) are the eigenvalues of {{c1::\(A^H A\) and \(A A^H\)}}; Theorem 7.1, pg 369
+MSS_CH7_06; The {{c1::rank}} of a matrix is the number of {{c2::nonzero}} {{c3::singular values}}.; pg 372
+MSS_CH7_07; "The singular value decomposition of a matrix \(A\) can be written as \(A = U \Sigma V^H = \) {{c1::\( [U_1 U_2] \left\lbrack \begin{array}{cc} \Sigma_1  & \;\\ \; & \Sigma_2 \end{array}\right\rbrack \left\lbrack \begin{array}{c} V_1^H  \\ V_2^H \end{array}\right\rbrack \)}} where \(\Sigma_1\) is {{c2::square::shape}} and has the singular values of \(A\) on the {{c2::diagonal}} and where \(\Sigma_2\) is entirely {{c2::zeros}}."; pg 371
+MSS_CH7_08; Using the SVD <br> {{c1::\(\mathcal{R}(A)\)}} = \( \mathrm{span}(\){{c2::\(U_1\)}}\()\); Equation 7.7, pg 372
+MSS_CH7_09; Using the SVD <br> {{c1::\(\mathcal{R}(A^H)\)}} = \( \mathrm{span}(\){{c2::\(V_1\)}}\()\); Equation 7.7, pg 372
+MSS_CH7_10; Using the SVD <br> {{c1::\(\mathcal{N}(A)\)}} = \( \mathrm{span}(\){{c2::\(V_2\)}}\()\); Equation 7.7, pg 372
+MSS_CH7_11; Using the SVD <br> {{c1::\(\mathcal{N}(A^H)\)}} = \( \mathrm{span}(\){{c2::\(U_2\)}}\()\); Equation 7.7, pg 372
+MSS_CH7_12; The pseudoinverse of \(A\) can be written using the SVD as \(A^\dagger = \) {{c1::\(V \Sigma^\dagger U^H\)}}; Equation 7.11, pg 374
+
