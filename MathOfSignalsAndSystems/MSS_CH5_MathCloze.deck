@@ -11,7 +11,7 @@ MSS_CH5_08; In the Cholesky factorization, \(A = LL^H\), \(L\) is {{c1::lower-tr
 MSS_CH5_09; In the Cholesky factorization, \(A = LL^H\), \(A\) must be {{c1::Hermitian}}, {{c1::square}}, and {{c1::positive-definite}}; pg 283
 MSS_CH5_10; For a unitary (or orthogonal) matrix \(Q\), <br> {{c1::\(Q^H Q\)}} = {{c1::\(Q Q^H\)}} = {{c2::\(I\)}}.; Definition 5.1, pg 285
 MSS_CH5_11; A matrix \(Q\) where \(Q^H Q = I\) is called {{c1::unitary}} if its elements are {{c2::complex}} and {{c1::orthogonal}} if its elements are {{c2::real}}.; Definition 5.1, pg 285
-MSS_CH5_12; For \(\mathbf{y} = Q \mathbf{x} \), \( \|\mathbf{y} \| = \|\mathbf{x}|\ \) if and only if \(Q\) is {{c1::unitary}}; Lemma 5.1, pg 385
+MSS_CH5_12; For \(\mathbf{y} = Q \mathbf{x} \), \( \|\mathbf{y} \| = \|\mathbf{x}\| \) if and only if \(Q\) is {{c1::unitary}}; Lemma 5.1, pg 385
 MSS_CH5_13; In the {{c1::QR}} factorization, <br> \(A = \) {{c2::\(QR\)}} <br> where A is an {{c3::arbitrary}} dimension; pg 286
-MSS_CH5_14; In the QR factorization, \(A = QR\) with \(A\) an \(m \times n\) matrix,<br> {{c1::Q}} is {{c2::orthogonal}} {{c2::\(m \times m\)::dimension}}; pg 286
-MSS_CH5_15; In the QR factorization, \(A = QR\) with \(A\) an \(m \times n\) matrix,<br> {{c1::R}} is {{c2::upper triangular}} {{c2::\(m \times n\)::dimension}}; pg 286
+MSS_CH5_14; In the QR factorization, \(A = QR\) with \(A\) an \(m \times n\) matrix,<br> {{c1::Q}} is {{c2::orthogonal}} and {{c2::\(m \times m\)::dimension}}; pg 286
+MSS_CH5_15; In the QR factorization, \(A = QR\) with \(A\) an \(m \times n\) matrix,<br> {{c1::R}} is {{c2::upper triangular}} and {{c2::\(m \times n\)::dimension}}; pg 286
