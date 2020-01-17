@@ -22,3 +22,6 @@ I use the following custom types of notes. For any new notes, I think the MathCl
 
 ## Etc
 I use the cmr10 font type, which matches the default latex font. I have also found that MathJax looks much better than latex (for example, in-line latex doesn't handle symbols that extend below the line well). 
+
+## Images
+Images can be imported automatically from `.deck` files by using an html tag `<img src=".png">` and allowing html on the import. Anki looks for the images in `~/.local/share/Anki2/Jacob/collection.media`. I copy images there from the `images` folder in this repository to mantain a backup.
