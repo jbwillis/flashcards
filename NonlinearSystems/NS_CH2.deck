@@ -1,0 +1,5 @@
+# Number; Cloze phrase; Reference
+# Chapter 2
+NS_CH2_01; Hartman-Grobman Theorem:<br> The qualitative properties of a  nonlinear system in the vicinity of an isolated equilibrium point is determined by the linearization if the linearization has {{c1::no eigenvalues on the imaginary axis}}; Wikipedia, Hartman-Grobman Theorem
+NS_CH2_02; An equilibrium point of a nonlinear system is {{c1::hyperbolic}} if the Jacobian matrix evaluated at that point has {{c2::no eigenvalues on the imaginary axis}}; pg 35
+

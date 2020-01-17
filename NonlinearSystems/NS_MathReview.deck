@@ -1,0 +1,26 @@
+# Number; Cloze phrase; Reference
+# Math Review
+NS_MR_01; The norm \(\|x\|\) of a vector \(x\) is a real-valued function with the properties:<br> \(\|x\|\) {{c1::\(\geq\)}} \(0\), for all \(x \in R^n\) <br> \(\|x\| = 0\) {{c1::iff}} \(x\) {{c1::=}} 0 <br>\(\|x + y\|\) {{c1::\(\leq\)}} \(\|x\| + \|y\|\) for all \(x,\: y \in R^n\) <br> \(\|\alpha x\| = \) {{c1::\(|\alpha| \|x\|}}, for all \(\alpha \in R\) and \(x \in R^n\); pg 361
+NS_MR_02; The 2-norm of a matrix \(A\) is defined by \(\|A\|_2\) = \) {{c1::\(\max_{\|x\| = 1} \|Ax\|\)::\(\max\) }} \(=\) {{c1::\([\lambda_{max} (A^T A)]^{1/2}\)::\(\lambda_{max}\)}}; pg 361
+NS_MR_03; For real matrices \(A\) and \(B\), \(\|AB\|) {{c1::\(\leq\)}} \(\|A\| \|B\|\); pg 361
+NS_MR_04; An {{c1::isomorphism}} is a mapping between two structures of the same type that {{c2::can be reversed by an inverse mapping}}; Wikipedia, Isomorphism
+NS_MR_05; A {{c2::homeomorphism}} is a {{c1::continuous}} function between topological spaces that has a {{c1::continuous}} inverse; Wikipedia, Homeomorphism
+NS_MR_06; A function is a {{c1::homeomorphism}} if it has the following properties: <br> {{c2::bijective}}, {{c3::continuous}}, {{c4::continuous inverse}}; Wikipedia, Homeomorphism
+NS_MR_07; A {{c1::diffeomorphism}} is an {{c2::invertible function}} that maps one {{c2::differentiable manifold}} to another such that both the function and its {{c2::inverse}} are {{c2::smooth}}; Wikipedia, Diffeomorphism
+NS_MR_08; A function \(f: R^n \to R^m\) is {{c1::continuously differentiable}} at a point \(x_0\) if its partial derivatives {{c2::exist}} and are {{c2::continuous}} at \(x_0\). <br> It is {{c1::continuously differentiable}} on a set \(S\) if it is {{c1::continuously differentiable}} at every point of \(S\); pg 364
+NS_MR_09; A function \(f: R^n \to R^m\) is of class {{c1::\(C^\ell\)}} for \(ell \geq 1\) if each \(f_i\) has {{c2::continuous partial derivatives}} up to order \(\ell\).; pg 364
+NS_MR_10; A function \(f: R^n \to R^m\) is {{c1::smooth}} if it is of class {{c2::\(C^\infty\)}}; pg 364 
+NS_MR_11; For a continuously differentiable function \(f: R^n \to R\), the {{c1::gradient vector (\(\nabla f(x)\))}}, is <br> {{c2::\(\frac{\partial f}{\partial x} = \right[ \frac{\partial f}{\partial x_1}, \dots, \frac{\partial f}{\partial x_n}\left]^T\)}}; pg 364
+NS_MR_12; For a continuously differentiable function \(f: R^n \to R^m\), the {{c1::Jacobian matrix}} is an \(m \times n\) matrix whos element in the \(i\mathrm{th}\) row and \(j\mathrm{th}\) column is {{c2::\(\frac{\partial f_i}{\partial x_j}\)}}; pg 365
+NS_MR_13; A {{c1::diffeomorphism}} is a {{c2::bijection}} which is {{c2::continuously differentiable}} with a {{c2::continuously differentiable}} {{c3::inverse}}; Notes
+NS_MR_14; A {{c1::homeomorphism}} is a {{c2::bijection}} which is {{c2::continuous}} with a {{c2::continuous}} {{c3::inverse}}; Notes
+NS_MR_15; <img src="injection.png"> <br> {{c1::injection}}; Wikipedia
+NS_MR_16; <img src="bijection.png"> <br> {{c1::bijection}}; Wikipedia
+NS_MR_17; <img src="surjection.png"> <br> {{c1::surjection}}; Wikipedia
+NS_MR_18; <img src="non_surjection_non_injection.png"> <br> {{c1::non-injective, non-surjective}}; Wikipedia
+NS_MR_19; A {{c1::bijective}} function is a function between two sets where each element of one set is paired with {{c2::exactly one element of the other set}}, and each element of the other set is paired with {{c2::exactly one element of the first set}}.; Wikipedia, bijection
+NS_MR_20; A {{c1::injective}} (aka {{c1::one-to-one}}) function is a function between two sets where {{c2::distinct}} elements of its domain are mapped to {{c2::distinct}} elements of its range; Wikipedia, injection
+NS_MR_21; {{c1::injection}} <br> For \(f: X \to Y\), for all \(a, b \in X\), \(f(a) = f(b) \implies a = b\); Wikipedia, injection
+NS_MR_22; A {{c1::surjective}} (aka {{c1::onto}}) function is a function between two sets where {{c2::every}} element in its {{c2::range}} is mapped to by {{c2::at least one}} element in its {{c2::domain}}; Wikipedia, surjective
+NS_MR_23; {{c1::surjection}} <br> For \(f: X \to Y\), for all \(y \in Y\) there exists an \(x \in X\) such that \(f(x) = y\); Wikipedia, surjective
+
