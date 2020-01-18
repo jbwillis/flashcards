@@ -2,20 +2,20 @@
 # Exam Prep
 FF_EP_01; The body is a {{c1::kinetic}} chain;
 FF_EP_02; Certain {{c1::joints}} are primarily structured for {{c2::mobility}} while others are for {{c2::stability}}.;
-FF_EP_03; The foot joints provide {{c1::stability:mobility or stability}};
-FF_EP_04; The ankle joints provide {{c1::mobility:mobility or stability}};
-FF_EP_05; The knee joints provide {{c1::stability:mobility or stability}};
-FF_EP_06; The hip joints provide {{c1::mobility:mobility or stability}};
-FF_EP_07; The lumbar spine provides {{c1::stability:mobility or stability}};
-FF_EP_08; The thoracic spine provides {{c1::mobility:mobility or stability}};
-FF_EP_09; The scapulothoracic joint provides {{c1::stability:mobility or stability}};
-FF_EP_10; The glenohumeral joint provides {{c1::mobility:mobility or stability}};
+FF_EP_03; The foot joints provide {{c1::stability::mobility or stability}};
+FF_EP_04; The ankle joints provide {{c1::mobility::mobility or stability}};
+FF_EP_05; The knee joints provide {{c1::stability::mobility or stability}};
+FF_EP_06; The hip joints provide {{c1::mobility::mobility or stability}};
+FF_EP_07; The lumbar spine provides {{c1::stability::mobility or stability}};
+FF_EP_08; The thoracic spine provides {{c1::mobility::mobility or stability}};
+FF_EP_09; The scapulothoracic joint provides {{c1::stability::mobility or stability}};
+FF_EP_10; The glenohumeral joint provides {{c1::mobility::mobility or stability}};
 FF_EP_11; The lumbar spine lies between the {{c1::hips}} and the {{c1::bottom of the rib cage}};
 FF_EP_12; The thoracic spine lines between the {{c1::bottom of the rib cage}} and the {{c1::neck}};
 FF_EP_13; The scapulothoracic joint consists of the {{c1::shoulder blade}} and the {{c2::back of the rib cage}};
 FF_EP_14; The glenohumeral joint is the {{c1::shoulder}};
-FF_EP_15; Muscles along your back are {{c1::pulling:pushing or pulling}} muscles;
-FF_EP_16; Muscles along your front are {{c1::pushing:pushing or pulling}} muscles;
+FF_EP_15; Muscles along your back are {{c1::pulling::pushing or pulling}} muscles;
+FF_EP_16; Muscles along your front are {{c1::pushing::pushing or pulling}} muscles;
 FF_EP_17; In a {{c1::push::push or pull}} movement pattern, force is being exerted {{c2::away::away or toward}} the body;
 FF_EP_18; In a {{c1::pull::push or pull}} movement pattern, force is being exerted {{c2::toward::away or toward}} the body;
 FF_EP_19; In a squat movement pattern, the {{c1::hips and knees::joints}} flex, and force is exerted to bring the {{c1::hips and knees::joints}} to full extension;
@@ -24,8 +24,8 @@ FF_EP_21; In a hinge movement pattern, it is important to hinge at the {{c1::hip
 FF_EP_22; The rotation movement pattern typically occurs at the {{c1::trunk}};
 FF_EP_23; The {{c1::loaded carry}} movement pattern consists of {{c2::moving a load for distance or time}};
 FF_EP_24; The {{c1::ground work}} movement pattern involves crawling and quadruped movements, as well as integrity with the environment;
-FF_EP_25; {{c1::Tonic::Tonic or Phasic}} muscles are referred to as the {{c2::talkers::talkers or listeners}}
-FF_EP_26; {{c1::Phasic::Tonic or Phasic}} muscles are referred to as the {{c2::listeners::talkers or listeners}}
+FF_EP_25; {{c1::Tonic::Tonic or Phasic}} muscles are referred to as the {{c2::talkers::talkers or listeners}};
+FF_EP_26; {{c1::Phasic::Tonic or Phasic}} muscles are referred to as the {{c2::listeners::talkers or listeners}};
 FF_EP_27; {{c1::Tonic::Tonic or Phasic}} muscles tend to {{c2::contract}} and become {{c2::tight}};
 FF_EP_28; {{c1::Phasic::Tonic or Phasic}} muscles tend to {{c2::relax}} and become {{c2::weak}};
 FF_EP_29; Imbalances in {{c1::tonic}} and {{c1::phasic}} muscles can cause {{c2::postural}} imbalances;
