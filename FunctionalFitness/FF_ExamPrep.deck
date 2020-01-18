@@ -1,0 +1,56 @@
+# Number; Cloze phrase; Reference
+# Exam Prep
+FF_EP_01; The body is a {{c1::kinetic}} chain;
+FF_EP_02; Certain {{c1::joints}} are primarily structured for {{c2::mobility}} while others are for {{c2::stability}}.;
+FF_EP_03; The foot joints provide {{c1::stability:mobility or stability}};
+FF_EP_04; The ankle joints provide {{c1::mobility:mobility or stability}};
+FF_EP_05; The knee joints provide {{c1::stability:mobility or stability}};
+FF_EP_06; The hip joints provide {{c1::mobility:mobility or stability}};
+FF_EP_07; The lumbar spine provides {{c1::stability:mobility or stability}};
+FF_EP_08; The thoracic spine provides {{c1::mobility:mobility or stability}};
+FF_EP_09; The scapulothoracic joint provides {{c1::stability:mobility or stability}};
+FF_EP_10; The glenohumeral joint provides {{c1::mobility:mobility or stability}};
+FF_EP_11; The lumbar spine lies between the {{c1::hips}} and the {{c1::bottom of the rib cage}};
+FF_EP_12; The thoracic spine lines between the {{c1::bottom of the rib cage}} and the {{c1::neck}};
+FF_EP_13; The scapulothoracic joint consists of the {{c1::shoulder blade}} and the {{c2::back of the rib cage}};
+FF_EP_14; The glenohumeral joint is the {{c1::shoulder}};
+FF_EP_15; Muscles along your back are {{c1::pulling:pushing or pulling}} muscles;
+FF_EP_16; Muscles along your front are {{c1::pushing:pushing or pulling}} muscles;
+FF_EP_17; In a {{c1::push::push or pull}} movement pattern, force is being exerted {{c2::away::away or toward}} the body;
+FF_EP_18; In a {{c1::pull::push or pull}} movement pattern, force is being exerted {{c2::toward::away or toward}} the body;
+FF_EP_19; In a squat movement pattern, the {{c1::hips and knees::joints}} flex, and force is exerted to bring the {{c1::hips and knees::joints}} to full extension;
+FF_EP_20; In a hinge movement pattern, the {{c1::hips}} act as a {{c2::fulcrum}};
+FF_EP_21; In a hinge movement pattern, it is important to hinge at the {{c1::hips}} and not at the {{c2::lower back}};
+FF_EP_22; The rotation movement pattern typically occurs at the {{c1::trunk}};
+FF_EP_23; The {{c1::loaded carry}} movement pattern consists of {{c2::moving a load for distance or time}};
+FF_EP_24; The {{c1::ground work}} movement pattern involves crawling and quadruped movements, as well as integrity with the environment;
+FF_EP_25; {{c1::Tonic::Tonic or Phasic}} muscles are referred to as the {{c2::talkers::talkers or listeners}}
+FF_EP_26; {{c1::Phasic::Tonic or Phasic}} muscles are referred to as the {{c2::listeners::talkers or listeners}}
+FF_EP_27; {{c1::Tonic::Tonic or Phasic}} muscles tend to {{c2::contract}} and become {{c2::tight}};
+FF_EP_28; {{c1::Phasic::Tonic or Phasic}} muscles tend to {{c2::relax}} and become {{c2::weak}};
+FF_EP_29; Imbalances in {{c1::tonic}} and {{c1::phasic}} muscles can cause {{c2::postural}} imbalances;
+FF_EP_30; Examples of tonic muscles include {{c1::Pectoralis Major}}, {{c1::Rectus Femorus}}, and {{c1::gastrocnemius (calf)}};
+FF_EP_31; Examples of phasic muscles include {{c1::glute medius}}, {{c1::glute maximumus}}, {{c1::rhomboids}}, and {{c1::lower trapezius}};
+FF_EP_32; The {{c1::bench press}} is a {{c2::push}} movement pattern;
+FF_EP_33; The {{c1::barbell back squat}} is both a {{c2::lower body push}} and a {{c2::squat}} movement pattern;
+FF_EP_34; The {{c1::bent over row}} is a {{c2::pull}} movement pattern;
+FF_EP_35; The {{c1::deadlift}} is both a {{c2::hinge}} and a {{c2::lower body pull}} movement pattern;
+FF_EP_36; The {{c1::farmer's walk}} is a {{c2::loaded carry}} movement pattern;
+FF_EP_37; The {{c1::single-arm dumbell bench press}} is a {{c2::anti-rotational/rotation}} movement pattern;
+FF_EP_38; {{c1::Crawling}} is a {{c2::ground work}} movement pattern;
+FF_EP_39; Temperature-related effects of a warm-up include: <ul> <li> {{c1::increased muscle temperature}} </li> <li> {{c1::increased core temperature}} </li> <li> {{c1::enhanced neural function}} </li> </ul>;
+FF_EP_40; Non-temperature-related effects of a warm-up include: <ul> <li>{{c1::Increased blood flow to working muscles}} </li> <li>{{c1::Increase in O2 consumption}}</li></ul>;
+FF_EP_41; A general warm-up consists of typically {{c1::about 5 minutes::time}} of {{c2::light aerobic activity}} such as {{c2::walking, jogging or skipping}};
+FF_EP_42; The purpose of a general warm-up is to: <ul> <li>{{c1::increase heart rate}}</li> <li>{{c1::increase blood flow}}</li> <li>{{c1::increase breathing rate}}</li> <li>{{c1::decrease joint fluid viscosity}}</li>;
+FF_EP_43; For a general warm up, after performing light aerobic activity one should engage in {{c1::general dynamic stretching}};
+FF_EP_44; A {{c1::specific}} warm up uses movements that are {{c1::similar}} to the movements in the sport you're warming up for;
+FF_EP_45; A specific warm up can last anywhere from {{c1::10 to 20 minutes}};
+FF_EP_46; A specific warm up should increase {{c1::muscle}} and {{c1::core}} temperature;
+FF_EP_47; A specific warm up should not be {{c1::fatiguing}} or {{c1::detract}} the actual training session;
+FF_EP_48; Performing exercises like {{c1::crunches}} is {{c2::not}} wise because it can lead to {{c2::low back injury}};
+FF_EP_49; Foam rolling increases one's flexibility by loosening {{c1::the stiffened connective tissue}} called {{c2::fascia}} that envelopes the muscle;
+FF_EP_50; Doing back extensions can place {{c1::tremendous}} amounts of force on the low back;
+FF_EP_51; A {{c1::back extension}} can place as much as 6000N of force on structures in the low back;
+FF_EP_52; Strength training {{c1::increases::decreases or increases}} your flexibility;
+FF_EP_53; {{c1::Stretching}} post workout and {{c1::good posture}} can help to improve {{c2::flexibility}};
+FF_EP_54; In training you want to train {{c1::movements}} rather than {{c2::muscles}};
