@@ -1,0 +1,17 @@
+# Number; Cloze phrase; Reference
+# Chapter 1
+DO_CH1_01; The {{c1::objective function}} is a performance measure to be minimized or maximized; pg 5
+DO_CH1_02; The {{c1::design variables}} are the parameters the the optimization algorithm is free to vary; pg 5
+DO_CH1_03; Design variables can have upper and lower bounds, also known as {{c1::side constraints}}; pg 5
+DO_CH1_04; In general, {{c1::constraints}} are {{c2::functions of the design variables}} that are restricted in some way; pg 6
+DO_CH1_05; When we restrict a function to being equal to a fixed quantity, we call this an {{c1::equality constraint}}; pg 6
+DO_CH1_06; When we restrict a function to being less than or equal to a fixed quantity, we call this an {{c1::inequality constraint}}; pg 6
+DO_CH1_07; If a constraint could have been left out of the optimization with no change in the solution, it is referred to as {{c1::inactive}}; pg 6
+DO_CH1_08; A function is {{c1::smooth}} when its derivatives of all orders vary continuously everywhere in its domain; pg 8
+DO_CH1_09; A function with a single minimum is {{c1::unimodal}}; pg 8
+DO_CH1_10; A function with multiple minima is {{c1::multimodal}}; pg 8
+DO_CH1_11; Without global knowlege, a minima is assumed to be {{c1::global}} until proven otherwise; pg 9
+DO_CH1_12; Convex functions are always {{c1::unimodal::unimodal or multimodal}}; pg 9
+DO_CH1_13; A function is {{c1::convex}} if {{c2::all line segments connecting any two points in the function lie above the function and never intersect it}}; pg 9
+
+

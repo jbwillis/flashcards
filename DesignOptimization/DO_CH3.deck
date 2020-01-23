@@ -1,0 +1,23 @@
+# Number; Cloze phrase; Reference
+# Chapter 3
+DO_CH3_01; The {{c1::gradient}} of a function \(f(x)\) is a vector of {{c2::partial derivatives}} with respect to each independent variable \(x_i\); pg 38-39
+DO_CH3_02; {{c1::\(\nabla f(x)\)}} = {{c2::\(g(x)\)}} = {{c3::\(\left[ \frac{\partial f}{\partial x_1}, \dots, \frac{\partial f}{\partial x_n}\right]^T\)}}; pg 39
+DO_CH3_03; The gradient vector points in the direction of {{c1::greatest increase}} from the current point; pg 39
+DO_CH3_04; The directional derivative in the direction of \(p\) is \(D_p f(x) = \) {{c1::\(g^T p\)}}; pg 39
+DO_CH3_05; The {{c1::Hessian}} is a {{c2::square matrix}} of a function's {{c3::second partial derivatives}}; pg 40
+DO_CH3_06; {{c1::\(\nabla^2 f(x)\)}} = {{c2::\(H(x)\)}} = {{c3::\(\begin{bmatrix} \frac{\partial^2 f}{\partial x_1^2} & \dots & \frac{\partial^2 f}{\partial x_1 x_n} \\ \vdots & & \vdots \\ \frac{\partial^2 f}{\partial x_n x_1} & \dots & \frac{\partial^2 f}{\partial x_n^2} \end{bmatrix} \)}}; pg 39
+DO_CH3_07; A point \(x^*\) is a {{c1::local minimum}} if {{c2::\(f(x*) \leq f(x)\) for all \(x\) in a neighborhood of \(x^*\)}}; pg 42
+DO_CH3_08; The {{c1::necessary}} optimality conditions for an unconstrained optimization problem are: <br> {{c2::\(g(x^*)\)}} = {{c3::0}} <br> {{c2::\(H(x^*)\)}} is {{c3::positive semidefinite}}; pg 43
+DO_CH3_09; The {{c1::sufficient}} optimality conditions for an unconstrained optimization problem are: <br> {{c2::\(g(x^*)\)}} = {{c3::0}} <br> {{c2::\(H(x^*)\)}} is {{c3::positive definite}}; pg 43
+DO_CH3_10; The line search optimization method consists of the following three main steps on each iteration: <ol> <li> {{c1::pick a search direction}}, {{c2::\(p_k\)}} </li> <li> {{c1::determine the step length}}, {{c2::\(\alpha_k\)}} </li> <li> {{c1::update the design variables}}, {{c2::\(x_{k+1} = x_k + \alpha_k p_k\)}} </ol> ; pg 44
+DO_CH3_11; The {{c1::sufficient decrease}} condition ensures that a step taken decreases the objective function by an acceptable value; pg 46
+DO_CH3_12; The {{c1::backtracking}} line search algorithm starts with a maximum step and successively reduces the step until it satisfies the {{c2::sufficient decrease}} condition; pg 47
+DO_CH3_13; In the {{c1::steepest descent}} method the search direction is the {{c2::negative of the gradient}}; pg 66
+DO_CH3_14; In the {{c1::conjugate gradient}} method the search direction is the {{c2::average of the previous search direction and the current negative gradient}}; pg 66
+DO_CH3_15; One drawback of the {{c1::steepest descent}} method is the {{c2::next search direction is orthogonal to the previous search direction}}, causing zig-zagging in the search; pg 57
+DO_CH3_16; In the {{c1::Newton}} method the search direction is the {{c2::analytic minimum of the second-order taylor series expansion at the current point}}; pg 61
+DO_CH3_17; In the {{c1::Quasi-Newton}} method the {{c2::Hessian is estimated using gradients}}; pg 63
+DO_CH3_18; Steepest descent: \(p_k = \) {{c1::\(-g_k\)}}; pg 66
+DO_CH3_19; Conjugate gradient: \(p_k = \) {{c1::\(-g_k + \beta_k \_{k-1}\)}}; pg 66
+DO_CH3_20; Newton: \(p_k = \) {{c1::\(-H_k^{-1}g_k\)}}; pg 66
+DO_CH3_20; Quasi-Newton: \(p_k = \) {{c1::\(-V_kg_k\)}}; pg 66
