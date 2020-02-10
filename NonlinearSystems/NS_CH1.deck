@@ -3,7 +3,7 @@
 NS_CH1_01; For a dynamical system \(\dot{x} = f(x)\), an {{c1::equilibrium point \(x^*\)}} is a point where {{c2::\(\dot{x} = f(x^*) = 0\)}} for all time \(t\); pg 19
 NS_CH1_02; A dynamical system \(\dot{x} = f(x)\) which does not depend explicitly on time is said to be {{c1::time-invariant}} or {{c2::autonomous}}; pg 18
 NS_CH1_03; An {{c1::autonomous (time invariant)}} system is invariant to shifts in the time origin, i.e. letting \(t = t-a\) does not change \(f(t, x)\); pg 18
-NS_CH1_04; The {{c1::continuously differentiable}} map \(z = T(z)\) is a {{c2::local diffeomorphism}} at \(x_0\) if the {{c3::Jacobian matrix \(\frac{\partial T\}{\partial x} \) }} is {{c3::nonsingular}} at \(x_0\); pg 19
-NS_CH1_05; The {{c1::continuously differentiable}} map \(z = T(z)\) is a {{c2::global diffeomorphism}} iff the {{c3::Jacobian matrix}} is {{c3::nonsingular}} for {{c3::all \(x\)}} and \(T\) is {{c4::proper}}; pg 19
+NS_CH1_04; The {{c1::continuously differentiable}} map \(z = T(x)\) is a {{c2::local diffeomorphism}} at \(x_0\) if the {{c3::Jacobian matrix \(\frac{\partial T}{\partial x} \) }} is {{c3::nonsingular}} at \(x_0\); pg 19
+NS_CH1_05; The {{c1::continuously differentiable}} map \(z = T(x)\) is a {{c2::global diffeomorphism}} iff the {{c3::Jacobian matrix}} is {{c3::nonsingular}} for {{c3::all \(x\)}} and \(T\) is {{c4::proper}}; pg 19
 NS_CH1_06; A continuously differentiable map \(z = T(z)\) is {{c1::proper}} if <br> {{c2::\(\lim_{x \to \infty} \|T(x)\|\) :: \(\lim\)}} \(= \infty\); pg 19
 

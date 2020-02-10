@@ -1,0 +1,15 @@
+# Number; Cloze phrase; Reference
+# Chapter 3
+NS_CH3_01; Let \(f(x)\) be a locally Lipschitz function defined of a domain \(D\subset R^n\), which contains the origin, and \(f(0) = 0\). The equilibrium point \(\dot{x} = f(x)\) is {{c1::stable}} if for each \(\epsilon > 0\) there is \(\delta > 0\) (dependent on \(\epsilon\) such that {{c2::\(\|x(0)\| < \delta\)}} \(\implies\) {{c2::\(\|x(t)\| < \epsilon\)}} for {{c2::all \(t \geq 0\)}}; Definition 3.1, pg 50
+NS_CH3_02; A function is {{c1::unstable}} if {{c2::it is not stable}}; Defintion 3.1, pg 50
+NS_CH3_03; A function is {{c1::asymptotically stable}} if it is {{c2::stable}} and \(\delta\) can be chosen such that {{c2::\(\|x(0)\| < \delta\)}} \(\implies\) {{c2::\(\lim_{t\to \infty} x(t) = 0\)}}; Definition 3.1, pg 50
+NS_CH3_04; The {{c1::region of attraction}} of an asymptotically stable (with equilibrium at the origin) function \(f\) is the set of all points \(x_0\) such that the solution of \(\dot{x}=f(x)\), \(x(0) = x_0\) is {{c2::defined for alll \(t \geq 0 \)}} and {{c2::converges to the origin as \(t\) tends to infinity}}; Definition 3.2, pg 51
+NS_CH3_05; The origin of an asymptotically stable function \(f\) is {{c1::globally asymptotically stable}} if {{c2::its region of attraction is the whole space \(R^n\)}}; Definition 3.2, pg 52
+NS_CH3_06; The equilibrium point \(x =0\) of \(\dot{x} = f(x)\) is {{c1::exponentially stable}} if there exist positive constants \(c\), \(k\), and \(\lambda\) such that {{c2::\(\|x(t)\| \leq k \|x(0)\| e^{-\lambda t}\)}} is satisfied for all {{c2::\(t \geq 0\)}} and for all {{c2::\(\|x(0)\| < c \)}}.; Definition 3.3, pg 55
+NS_CH3_07; The equilibrium point \(x =0\) of \(\dot{x} = f(x)\) is {{c1::globaly exponentially stable}} if it is exponentially stable for every initial state \(x(0)\).; Definition 3.3, pg 55
+NS_CH3_08; Exponential stability is a {{c1::stronger}} condition than asymptotic stability.; pg 55
+NS_CH3_09; Lyapunov's {{c1::indirect method}} <br> Let \(x = 0\) be an equilibrium point for \(\dot{x} = f(x)\), and let \(A = \frac{\partial f}{\partial x}(x)\), evaluated at \(x = 0\). <br> The origin is {{c2::exponentially stable}} {{c3::if and only if}} {{c4::\(\operatorname{Re}(\lambda_i) < 0\)}} for {{c4::all}} eigenvalues \(\lambda_i\) of \(A\).; Theorem 3.2, pg 56
+NS_CH3_10; Lyapunov's {{c1::indirect method}} <br> Let \(x = 0\) be an equilibrium point for \(\dot{x} = f(x)\), and let \(A = \frac{\partial f}{\partial x}(x)\), evaluated at \(x = 0\). <br> The origin is {{c2::unstable}} if {{c3::\(\operatorname{Re}(\lambda_i) > 0\)}} for {{c3::one or more eigenvalues}} \(\lambda_i\) of \(A\).; Theorem 3.2, pg 56
+NS_CH3_11; Conditions on a Lyapunov function \(V(x)\) defined over a domain \(D \subset R^n\) <ul> <li> {{c1::continuously differentiable}} </li> <li> {{c2::\(V(0) = 0\)}} </li> <li> {{c3::\(V(x) > 0\) for all \(x \in D\) with \(x \neq 0\)}} </li>; Theorem 3.3, pg 59
+
+
