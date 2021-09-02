@@ -1,0 +1,24 @@
+# Num; Cloze; Ref
+R_LT_01; A {{c1::group}} is a set, \(\mathcal{G}\), along with a {{c2::composition operation}}, \(\circ\), that satisfies the following axioms,<ol> <li> {{c3::Closure}} </li> <li> {{c3::Associativity}} </li> <li> {{c3::Identity element}}</li> <li> {{c3::Inverse element}}</li> </ol>; Sola, Micro Lie Theory, eq. 1-4
+R_LT_02; For the group (\(\mathcal{G}\), \(\circ\)), with \(\mathcal{X}, \mathcal{Y} \in \mathcal{G}\), the {{c1::closure}} axiom ensures that {{c2::\(\mathcal{X} \circ \mathcal{Y} \in \mathcal{G} \) }}; Sola, Micro Lie Theory, eq. 1
+R_LT_03; For the group (\(\mathcal{G}\), \(\circ\)), with \(\mathcal{X} \in \mathcal{G}\), the {{c1::identity element}} is defined such that {{c2::\(\mathcal{X} \circ \mathcal{E} = \mathcal{E} \circ \mathcal{X} = \mathcal{X} \) }}; Sola, Micro Lie Theory, eq. 2
+R_LT_04; For the group (\(\mathcal{G}\), \(\circ\)), with \(\mathcal{X} \in \mathcal{G}\), the {{c1::inverse}} \(\mathcal{X}^{-1}\) is defined such that {{c2::\(\mathcal{X}^{-1} \circ \mathcal{X} = \mathcal{X} \circ \mathcal{X}^{-1} = \mathcal{E} \) }}; Sola, Micro Lie Theory, eq. 3
+R_LT_05; For the group (\(\mathcal{G}\), \(\circ\)), with \(\mathcal{X}, \mathcal{Y}, \mathcal{Z} \in \mathcal{G}\), the {{c1::associativity}} axiom ensures that {{c2::\(\mathcal{X} \circ (\mathcal{Y} \circ \mathcal{Z}) = (\mathcal{X} \circ \mathcal{Y}) \circ \mathcal{Z} \) }}; Sola, Micro Lie Theory, eq. 4
+R_LT_06; A {{c1::Lie group}} \(\mathcal{G}\) is a {{c2::differentiable}} or {{c2::smooth}} manifold whose elements satisfy the {{c3::group axioms}}; Sola, Micro Lie Theory, II-A
+R_LT_07; The {{c1::group action}} of a Lie group is the transformation action it has on elements of {{c2::other sets}}; Sola, Micro Lie Theory, II-B
+R_LT_08; Examples of the {{c1::group action}} of a Lie group include rotations, translations, and scalings; Sola, Micro Lie Theory, II-B
+R_LT_09; The {{c1::group action}} \(\cdot\) of a Lie group \(\mathcal{M}\) on a set \(\mathcal{V}\) is defined to be {{c2::\(\cdot : \mathcal{M} \times \mathcal{V} \to \mathcal{V}\) }}; Sola, Micro Lie Theory, II-B
+R_LT_10; A {{c1::group action}} must satisfy the {{c2::Identity}} and {{c2::Compatibility}} axioms, that is: <ol> <li> \(\mathcal{E} \cdot v = v \)<\li> <li> \( (\mathcal{X} \circ \mathcal{Y}) \cdot v = \mathcal{X} \cdot (\mathcal{Y} \cdot v) \) }}; Sola, Micro Lie Theory, II-B
+R_LT_11; The {{c1::Lie algebra}} \(\mathfrac{m}\) of a {{c2::Lie group}} \(\mathcal{M}\) is {{c3::the tangent space of \(M\) at the identity}}; Sola, Micro Lie Theory, II-C-1
+R_LT_12; The {{c1::Lie algebra}} \(\mathfrac{m}\) is a {{c2::vector space}}; Sola, Micro Lie Theory, II-C-1
+R_LT_13; The {{c1::exponential map}} {{c1::\(\mathrm{exp}\)}} \(:\) {{c2::\(\mathfrac{m} \to \mathcal{M}\) }} exactly converts elements of the {{c2::Lie algebra}} into elements of the {{c2::Lie group}}; Sola, Micro Lie Theory, II-C-1
+R_LT_14; Elements of the {{c1::Lie algebra}} can be expressed as linear combinations of base elements, called {{c2::generators}}; Sola, Micro Lie Theory, II-C-2
+R_LT_15; A Lie algebra \(\mathfrac{m}\) is {{c2::isomorphic}} to {{c1::\(\mathbb{R}^m\)}} where \(m\) is the {{c3::number of degrees of freedom}} of the {{c3::associated Lie group \(\mathcal{M}\) }}; Sola, Micro Lie Theory, II-C-1
+R_LT_16; The {{c1::hat}} operator \( (\cdot)^\wedge \) maps elements of {{c2::\(\mathbb{R}^m\)}} to {{c2:: the Lie algebra \(\mathfrac{m}\) }}; Sola, Micro Lie Theory, eq. 10
+R_LT_17; The {{c1::vee}} operator \( (\cdot)^\vee \) maps elements of {{c2:: the Lie algebra \(\mathfrac{m}\) }} to  {{c2::\(\mathbb{R}^m\)}}; Sola, Micro Lie Theory, eq. 11
+R_LT_18; {{c1::\( (\cdot)^\wedge \)}} : {{c2::\(\mathbb{R}^m \to \mathfrac{m} \) }}; Sola, Micro Lie Theory, eq. 10
+R_LT_19; {{c1::\( (\cdot)^\vee \)}} : {{c2::\(\mathfrac{m} \to \mathbb{R}^m \) }}; Sola, Micro Lie Theory, eq. 11
+R_LT_20; {{c1::\( \mathrm{exp} \)}} : {{c2::\(\mathfrac{m} \to \mathcal{M}\)}}; Sola, Micro Lie Theory, eq. 14
+R_LT_21; {{c1::\( \mathrm{log} \)}} : {{c2::\(\mathcal{M} \to \mathfrac{m}\)}}; Sola, Micro Lie Theory, eq. 15
+R_LT_22; {{c1::\( \mathrm{Exp} \)}} : {{c2::\(\mathbb{R}^m \to \mathcal{M}\)}}; Sola, Micro Lie Theory, eq. 21
+R_LT_23; {{c1::\( \mathrm{Log} \)}} : {{c2::\(\mathcal{M} \to \mathbb{R}^m\)}}; Sola, Micro Lie Theory, eq. 22
