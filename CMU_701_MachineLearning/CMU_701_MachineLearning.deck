@@ -1,0 +1,18 @@
+# Number; Cloze phrase; Reference
+ML_01; A {{c1::random variable}} is an {{c2::event or element}} whose status is {{c3::unknown}}; 
+ML_02; \(P(A) \in \) {{c1::\( [0, 1] \)}};
+ML_03; \(P(\mathrm{True}) = \) {{c1::1}}, \( P(\mathrm{False}) = \) {{c1::0}};
+ML_04; {{c1::\( P(A \cup B) \)}} = {{c2:: \( P(A) + P(B) - P(A \cap B) \)}};
+ML_05; A {{c1::prior}} is a belief about a random variable before {{c2::additional evidence is taken into account}};
+ML_06; \(P(A | B)\) is the probability that {{c1::\(A\)}} occured {{c2::given that}} {{c1::\(B\)}} occurred;
+ML_07; If \(A\) and \(B\) are {{c1::independent}} \(P(A, B) = \) {{c2::\(P(A) P(B)\)}};
+ML_08; According to the chain rule, <br> {{c1::\(P(A, B)\)}} = {{c2::\(P(A|B)P(B)\)}};
+ML_09; According to Bayes Rule, <br> {{c1::\(P(A | B)\)}} = {{c2::\( \frac{P(B|A)P(A)}{P(B)} \)}};
+ML_10; In Machine Learning literature, {{c1::\(\theta\)}} is often used to represent the {{c2::model parameters}};
+ML_11; In Machine Learning literature, {{c1::\(D\)}} is often used to represent the {{c2::data}};
+ML_12; In {{c1::maximum a posteriori}} estimation, the model parameters are chosen based on {{c2::observed data and a prior belief}};
+ML_13; {{c1::Maximum Likelihood Estimation}} <br> \(\hat{\theta} = \) {{c2::\(\argmax_\theta P(D|\theta)\)}};
+ML_14; In {{c1::maximum likelihood}} estimation, the model parameters are chosen based on {{c2::observed data}};
+ML_15; {{c1::Maximum A Posteriori Estimation}} <br> \(\hat{\theta} = \) {{c2::\(\argmax_\theta P(D|\theta)\)P(\theta)}};
+
+
