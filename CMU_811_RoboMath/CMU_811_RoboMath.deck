@@ -1,0 +1,18 @@
+# Number; Cloze phrase; Reference
+RM_01; For a matrix \(A \in \mathbb{R}^{m\times n}\), the {{c1::column space}} of \(A\) is the {{c2::span of all columns}} of \(A\); 
+RM_02; For a matrix \(A \in \mathbb{R}^{m\times n}\), the {{c1::row space}} of \(A\) is the {{c2::span of all rows}} of \(A\); 
+RM_03; For a matrix \(A \in \mathbb{R}^{m\times n}\), the {{c1::null space}} of \(A\) is the {{c2::span of all vectors \(x\) s.t. \(Ax = 0\)}}; 
+RM_04; For a matrix \(A \in \mathbb{R}^{m\times n}\), dim({{c1::row space}}) + dim({{c1::null space}}) = {{c2::\(n\)}}; 
+RM_05; For a matrix \(A \in \mathbb{R}^{m\times n}\), dim(row space) {{c1::=}} dim(column space); 
+RM_06; For a matrix \(A \in \mathbb{R}^{n\times n}\), if \(A\) {{c1::does not}} have an inverse, we say \(A\) is singular;
+RM_07; For a matrix \(A \in \mathbb{R}^{n\times n}\), \(A\) is {{c1::singular}} iff \(\dim(\){{c2::\( \mathcal{N}(A) \)}} \( ) \) {{c3::\( > 0\)}};
+RM_07a; For a matrix \(A \in \mathbb{R}^{n\times n}\), \(A\) is {{c1::invertible}} iff \(\dim(\){{c2::\( \mathcal{N}(A) \)}} \( ) \) {{c3::\( = 0\)}};
+RM_08; For a matrix \(A \in \mathbb{R}^{n\times n}\), \(A\) is {{c1::singular}} iff rank(\(A\)) {{c2::\( < n\)}};
+RM_08a; For a matrix \(A \in \mathbb{R}^{n\times n}\), \(A\) is {{c1::invertible}} iff rank(\(A\)) {{c2::\( = n\)}};
+RM_09; For a matrix \(A \in \mathbb{R}^{n\times n}\), \(A\) is {{c1::singular}} iff det(\(A\)) {{c2::\( = 0\)}};
+RM_09a; For a matrix \(A \in \mathbb{R}^{n\times n}\), \(A\) is {{c1::invertible}} iff det(\(A\)) {{c2::\( \neq 0\)}};
+RM_10; The {{c1::determinant}} of a matrix \(A\) can be geometrically understood as the {{c2::volume}} resulting from passing a {{c2::unit volume hyper-sphere}} through \(A\).;
+RM_11; Suppose \(A \in \mathbb{R}^{m \times n} \) with \(m \gt n = \mathrm{rank}(A) \), we can always write \(A\) as <br> {{c1::\(PA\) }} = {{c2::\(LDU\)}}, <br> where <br> \(P\) is a {{c3::permuatation}} matrix <br>\(L\) is a {{c4::lower triangular}} matrix with ones {{c4::on the diagonal}} <br> \(D\) is a {{c4::diagonal}} matrix, and  <br>\(U\) is a {{c4::upper triangular}} matrix with ones {{c4::on the diagonal}} <br>;
+RM_12; The {{c1::determinant}} of a matrix is the {{c2::product}} of its {{c3::eigenvalues}}.;
+RM_13; The LU decomposition can be used to solve a system of equations using the process of {{c1::backsubstitution}}.;
+
