@@ -1,0 +1,73 @@
+# Number; Cloze phrase; Reference
+AI_01; The high level objective of search is to find the {{c1::minimum cost path in a computationally efficient manner}}; Introduction and Search I slides
+AI_02; {{c1::Uniform cost}} search uses {{c2::no information}} about the problem other than the {{c3::edge costs}}; Introduction and Search I slides
+AI_03; {{c1::Uniform cost}} search is otherwise known as {{c2::uninformed}} search; Introduction and Search I slides
+AI_04; In search algorithms, the function {{c1::\(g\)}}\((x)\) is the {{c2::cost from the start node \((s)\) to \(x\)}}; Introduction and Search I slides
+AI_05; In search algorithms, the function {{c1::\(h\)}}\((x)\) is the {{c2::heuristic cost from \(x\) to the goal node \((t)\)}}; Introduction and Search I slides
+AI_06; In {{c1::uniform cost}} search, the node with minimum {{c2::\(g(x)\)}} is expanded; Introduction and Search I slides
+AI_07; In {{c1::greedy}} search, the node with minimum {{c2::\(h(x)\)}} is expanded; Introduction and Search I slides
+AI_08; In {{c1::\(A^*\)}} search, the node with minimum {{c2::\(h(x) + g(x)\)}} is expanded; Introduction and Search I slides
+AI_09; A heuristic \(h\) is {{c1::admissible}} if {{c2::\(h(x) \leq h^*(x)\)}} where {{c2::\(h^*(x)\) is the optimal cost from \(x\) to \(t\)}}; Introduction and Search I slides
+AI_10; If the heuristic is {{c1::admissible}} then the path returned by \(A^*\) tree search has {{c2::minimum cost}};  Introduction and Search I slides
+AI_11; A heuristic \(h\) {{c1::dominates}} \(h'\) iff for all \(x\) {{c2::\(h(x) \geq h'(x)\)}}; Introduction and Search I slides
+AI_12; {{c1::Graph}} search is the same as tree search except that it {{c2::never expands a node twice}}; Search II slides
+AI_13; \(A^*\) graph search may not return the optimal path under an {{c1::admissible}} heuristic; Search II slides
+AI_14; A heuristic \(h\) is {{c1::consistent}} if for every two nodes \(x, y\) {{c2::\(h(x) \leq c(x, y) + h(y)\)}} where {{c2::\(c(x, y)\) is the cost of the cheapest path from \(x\) to \(y\)}}; Search II slides
+AI_15; If a heuristic is {{c1::consistent}}, it is also admissible; Search II slides
+AI_16; If a heuristic \(h\) is {{c1::consistent}}, then \(A^*\) graph search {{c2::finds minimum cost paths}}; Search II slides
+AI_17; \(A^*\) graph search has {{c1::optimal computational efficiency}} among all graph search algorithms; Search II slides
+AI_18; By looking at problems in AI as optimization problems, we separate out the {{c1::definition}} of the problem from the {{c2::method for solving it}}; Optimization slides
+AI_19; A set \(\mathcal{C}\) is {{c1::convex}} if for any \(x, y \in \mathcal{C}\) and \(0 \leq \theta \leq 1\), {{c2::\(\theta x + (1-\theta)y \in \mathcal{C} \)}}; Optimization slides
+AI_20; A function \(f: \mathbb{R}^n \to \mathbb{R}\) is {{c1::convex}} if, for any \(x, y \in \mathcal{R}^n\) and \(0 \leq \theta \leq 1\) <br> {{c2::\(f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y)\)}}; Optimization slides
+AI_21; The exponential function, \(f(x) = \){{c1::\(\exp(a x)\)}} is convex; Optimization slides
+AI_22; The negative logarithm, \(f(x) = \){{c1::\(-\log (x)\)}} is convex; Optimization slides
+AI_23; The squared euclidian norm, \(f(x) = \){{c1::\(x^T x\)}} is convex; Optimization slides
+AI_24; Every norm, \(f(x) = \){{c1::\(\| x \|\)}} is convex; Optimization slides
+AI_25; A {{c2::convex}} function of an {{c2::affine}} function, \(f(x) = \){{c1::\(g(Ax + b)\)}} is convex; Optimization slides
+AI_26; A nonnegative weighted sum of convex fucntions,<br> \(f(x) = \){{c1::\(\sum_i w_i f_i(x)\)}} is convex; Optimization slides
+AI_27; For a convex optimization problem, all {{c1::locally optimal}} points are {{c2::globally optimal}}; Optimization slides
+AI_28; The main update step of gradient descent is <br> \(x = \){{c1::\(x - \alpha \nabla f(x)\)}}; Optimization slides
+AI_29; A linear program in {{c1::inequality}} form is <br> \(\mathrm{maximize}_x c^T x\) <br> \(\text{subject to }\) {{c2::\(G x \leq h\)}}; Linear Programming slides
+AI_30; A linear program in {{c1::standard}} form is <br> \(\mathrm{maximize}_x c^T x\) <br> \(\text{subject to }\) {{c2::\( A x = b, x \geq 0\)}}; Linear Programming slides
+AI_31; The basic idea of the {{c1::simplex algorithm}} is to move along the edges of the constraint polytope from corner to corner in directions of decreasing cost; Linear Programming slides
+AI_32; The simplex algorithm has worst case {{c1::exponential}} complexity; Linear Programming slides
+AI_33; To solve integer programs, integer constraints can be relaxed from \(x \in \{0, 1\}\) to {{c1::\(x \in [0, 1]\)}}. This forms a {{c2::continuous}} optimization; Integer Programming slides
+AI_34; The optimal objective for a relaxed integer program will be {{c1::lower}} than that of the original integer program; Integer Programming slides
+AI_35; {{c1::Branch and bound}} is {{c2::greedy}} search with the {{c2::relaxed integer program as a heuristic}}; Integer Programming slides
+AI_36; The steps of branch and bound are <br> 1. {{c1::Choose lowest cost relaxed problem from the frontier}} <br> 2. {{c2::If the solution is not integer valued, pick a non-integer variable and constraint it}} <br> 3. {{c3::Repeat until integer valued}}; Integer Programming slides
+AI_37; A matrix is {{c1::totally unimodular}} if every square submatrix has a {{c2::determinant}} {{c3::-1, 0, or 1}}; Integer Programming Applications slides
+AI_38; For a linear program with constraint \(Ax \leq b\), if A is {{c1::totally unimodular}} and b has {{c1::integer}} entries, then {{c2::all vertices of the feasible set are integers}}; Integer Programming Applications slides
+AI_39; In a {{c1::Nash equilibrium}} each player has {{c2::no incentive to deviate}}; Game Theory I slides
+AI_40; In a {{c1::mixed strategy}} the player's stratgy is a {{c2::probability distribution over pure strategies}}; Game Theory I slides
+AI_41; In any {{c1::finite}} game, the exists at least one ({{c2::possibly mixed}}) {{c2::Nash Equilibrium}}; Game Theory I slides
+AI_42; In a {{c1::correllated equilibrium}} a mediator chooses strategies for each player and {{c2::the mediator's choice}} is the best response assuming the other player {{c3::follows}} the mediator's choice; Game Theory II slides
+AI_43; In a leader-follower game, the leader commits to a strategy {{c1::first}} and the follower chooses {{c2::their best response}}; Game Theory II slides
+AI_44; In a {{c1::Stackelberg equilibrium}} the leader chooses their strategy such that their utility under that strategy and the follower's {{c2::best response}} is {{c3::maximized}}; Game Theory II slides
+AI_45; In a {{c1::zero sum game}} the utilities of the two players {{c2::sum to zero}} for any choice of strategies; Game Theory III slides
+AI_46; {{c1::Social welfare}} is the {{c2::sum of the expected utility values}} of all players under their chosen strategies; Game Theory II slides
+AI_47; In the {{c1::plurality}} voting rule, each voter awards {{c2:: one point to their top pick}} and {{c2::zero points to everyone else}}; Social Choice Theory I slides
+AI_48; In the {{c1::plurality with runoff}} voting rule, the two alternatives with {{c2::highest plurality scores}} survive, and then a {{c3::pairwise election}} is held between those alternatives; Social Choice Theory I slides
+AI_49; In the {{c1::Borda count}} voting rule, voters award {{c2::points}} according to their {{c2::rank}} of the alternatives, then the alternative with the {{c3::most points}} wins; Social Choice Theory I slides
+AI_50; In each iteration of the {{c1::instant runoff}} voting rule, the alternative with the {{c2::least plurality votes}} is eliminated; Social Choice Theory I slides
+AI_51; In the {{c1::Copeland count}} voting rule, the winner is the one who wins the most {{c2::pairwise elections}}; Social Choice Theory I slides
+AI_52; In the {{c1::majority consistency}} axiom, if a {{c2:majority}} of voters rank alternative x first, then x should {{c2::win}}; Social Choice Theory I slides
+AI_53; The {{c1::Condorcet winner}} beats every other alternative in {{c2::pairwise elections}}; Social Choice Theory I slides
+AI_54; In the {{c1::monotonicity}} axiom, if a voter improves the ranking of an alternative, then that alternative should {{c2::not be worse off}}; Social Choice Theory I slides
+AI_55; A voting rule is {{c1::strategyproof}} if a voter can never benefit by {{c2::lying about their preferences}}; Social Choice Theory II slides
+AI_56; A voting rule is {{c2::dictatorial}} if there is a voter who always gets {{c2::their most perferred}} alternative; Social Choice Theory II slides
+AI_57; A voting rule is {{c3::pareto efficient}} if all voters choose the same highest preference, that preference should be the winner; Social Choice Theory II slides
+AI_58; If there are more than two alternatives, any voting rule that is {{c1::strategy proof}} and {{c1::pareto efficient}} is dictatorial; Social Choice Theory II slides
+AI_59; The {{c1::median}} is a {{c2::singly peaked}} voting rule; Social Choice Theory II slides
+AI_60; The {{c1::hypothesis function}} \(h_\theta(x)\) predicts an output given \(x\) as {{c2::input}} and with {{c2::parameters}} \(\theta\); Machine Learning slides
+AI_61; The {{c2::loss function}} \(\ell()\) measures {{c2::the distance between}} a prediction \(h_\theta(x)\) and the true output \(y\); Machine Learning slides
+AI_62; The canonical machine learning problem is: given a set of {{c1::input features x}} and {{c2::outputs y}}, find the {{c2::parameters \(\theta\)}} that minimize the sum of losses; Machine Learning slides
+AI_63; The {{c1::regularized}} machine loss minimization problem adds a penalty on {{c2::the magnitude of the model parameters}}; Machine Learning slides
+AI_64; A {{c1::neural network}} is a composition of linear combinations and nonlinear functions, \(f(Wx + b)\); Deep Learning slides
+AI_65; Training a neural network involves a {{c1::forward pass}} where inputs are evaluated on the data and a {{c2::backwards pass}} where gradients are computed; Deep Learning slides
+AI_66; Convolutional neural networks restrict the required number of weights by requiring that activations occur in a {{c1::local}} manner and that all activations in a layer share the same {{c2::weights}}; CNN RNN slides
+AI_67; {{c1::Recurrent}} and {{c1::transformer}} neural networks are used for predicting sequences of data; CNN RNN Slides
+
+
+
+
+
