@@ -66,6 +66,30 @@ AI_64; A {{c1::neural network}} is a composition of linear combinations and nonl
 AI_65; Training a neural network involves a {{c1::forward pass}} where inputs are evaluated on the data and a {{c2::backwards pass}} where gradients are computed; Deep Learning slides
 AI_66; Convolutional neural networks restrict the required number of weights by requiring that activations occur in a {{c1::local}} manner and that all activations in a layer share the same {{c2::weights}}; CNN RNN slides
 AI_67; {{c1::Recurrent}} and {{c1::transformer}} neural networks are used for predicting sequences of data; CNN RNN Slides
+AI_68; The {{c1:realizability}} assumption is that there is some function \(h^*: \mathcal{X} \to \mathcal{Y}\) such that all data satisfies {{c2::\(y = h^*(x))}}; Learning Theory notes
+AI_69; PAC learning stands for {{c1::probably approximately correct}}; Learning Theory notes
+AI_70; The notional ambition of PAC learning is to find \(h\) so that {{c1::error(\(h, h^*\))}} is {{c2::small with high probability}}; Learning Theory notes
+AI_71; The {{c1::risk}} of a hypothesis \(h\) is \(R_{(D,h^*)}(h) = \){{c2::\( \mathbb{P}_{x \sim D} ( h(x) \neq h^*(x) )\)}}; Learning Theory notes
+AI_72; A hypothesis class \(\mathcal{H}\) is PAC learnable if there is a learning algorithm such that for every \(\epsilon > 0, \delta > 0\) there exists some \(n^*(\epsilon, \delta) \geq 0\) such that for every distribution \(D \) on \(\mathcal{X}\) and any \(h^* \in \mathcal{H}\), running the algorithm on $n \geq n^*(\epsilon, \delta)$ samples outputs h such that <br> {{c1::\mathbb{P}_{x_1, \dots, x_n \sim D} ( R_{(D, h^*)} (h) > \epsilon) \leq \delta \)}}; Learning Theory notes
+AI_73; For any \(\epsilon, \delta\) the smallest \(n^*(\epsilon, \delta)\) with this guarantee is the {{c1::sample complexity}} of learning \(\mathcal{H}\); Learning Theory notes
+AI_74; The {{c1::VC dimension}} quantifies the complexity of a given \(\mathcal{H}\); Learning Theory notes
+AI_75; A hypothesis class \(\mathcal{H}\) with {{c1::\(VC(\mathcal{H})\)}} {{c2::is not}} PAC learnable; Learning Theory notes
+AI_76; The {{c1::no free lunch}} theorem. <br> Suppose \(\mathcal{H} = \) {{c2::all functions \(\mathcal{X} \to \mathcal{Y}\)}}.<br> If \(n \leq \frac{|\mathcal{X}|}{2}\) then for {{c3::any learning algorithm}} \(\mathbb{P}(R(h)) \geq \frac18) \geq \frac17\); Learning Theory notes
+AI_77; The no free lunch theorem tells us that we have to {{c1::make an assumption about}} \(\mathcal{H}\); Learning Theory notes
+AI_78; In a binary classifier, the fairness axiom {{c1::well calibrated}} means that the {{c2::mean score}} given to any group should approximately equal the number of + people in that group; Fairness notes
+AI_78; In a binary classifier, the fairness axiom {{c1::balance for positive class}} means that the {{c2::mean score}} by true + people in group 1 {{c2::should equal}} the {{c2::mean score}} by true + people in group 2; Fairness notes
+AI_79; The Locally Interpretable Model agnostic Explanations (LIME) method focuses on {{c1::a specific point}} and approximates the local decision boundary with a {{c1::sparse linear classifier}}; Explainability notes
+AI_80; Marginalization <br> \(p(X_1) =\) {{c1::\(\sum_{X2}\)}}\(p(X_1, X_2\); Probabilistic Modeling slides
+AI_81; Conditional probability <br> \(p(X_1 | X_2) = \) {{c1::\(\frac{p(X_1, X_2)}{p(X_2)}\)}}; Probabilistic Modeling slides
+AI_82; Bayes' rule <br> \(p(X_1 | X_2) = \) {{c1::\(\frac{p(X_2| X_1)p(X_1)}{p(X_2)}\)}}; Probabilistic Modeling slides
+AI_83; Marginal independence <br> \(p(X_1, X_2) = \) {{c1::\(p(X_1)p(X_2)\)}}; Probabilistic Modeling slides
+AI_84; Conditional independence <br> \(p(X_1, X_2 | X_3) = \) {{c1::\(p(X_1 | X_3) p(X_2 | X_3)\)}}; Probabilistic Modeling slides
+AI_85; Expectation <br> \(E[X] = \) \(\sum_x x p(x)\); Probabilistic Modeling slides
+AI_86; Conditional expectation <br> \(E[X_1 | x_2] = \) \(\sum_{x_1} x_1 p(x_1 | x_2)\); Probabilistic Modeling slides
+AI_87; Maximum likelihood estimation <br> find the parameters that {{c2::maximize the probability of}} the observed data; Probabilistic Modeling slides
+AI_88; Tree search<br> 1. {{c1::choose a frontier node for expansion using a strategy}} <br> 2. {{c2::expand the node, adding the results to the frontier, and removing the expanded node from the frontier}}; Search I slides
+AI_89; Graph search<br> 1. {{c1::choose a frontier node for expansion using a strategy}} <br> 2. expand the node, adding the results to the frontier {{c2::if they have not already been expanded}}, and removing the expanded node from the frontier; Search I slides
+
 
 
 
